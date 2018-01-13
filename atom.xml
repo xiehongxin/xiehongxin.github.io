@@ -6,31 +6,10 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-13T16:50:08.627Z</updated>
+  <updated>2018-01-13T15:17:53.325Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>未来目标</title>
-    <link href="http://yoursite.com/posts/29a76911/"/>
-    <id>http://yoursite.com/posts/29a76911/</id>
-    <published>2018-01-13T16:50:08.627Z</published>
-    <updated>2018-01-13T16:50:08.627Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h5><p>1.快速实现博客压缩<br>2.github分支管理博客思路<br>3.Next主题宽度调节<br>4.文章底部的那个带#号的标签<br>5.hexo NexT主题首页title的优化<br>6.动态title改动<br>7.给 Github 添加 README<br>8.博文置顶</p><h5 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h5><p>Ubuntu以往文章整理<br>centos整理<br>linux文件操作命令（常用+help引导）<br>权限管理（读写执行，用户组）<br>进程杀死与查询<br>查询文件命令（查询软件、查询文件下有没有这个文件）<br>脚本攥写<br>防火墙与端口</p><h5 id="大数据"><a href="#大数据" class="headerlink" title="大数据"></a>大数据</h5><p>整理以往文章</p><h5 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h5><p>从现在开始整理</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h5 id=&quot;博客&quot;&gt;&lt;a href=&quot;#博客&quot; class=&quot;headerlink&quot; title=&quot;博客&quot;&gt;&lt;/a&gt;博客&lt;/h5&gt;&lt;p&gt;1.快速实现博客压缩&lt;br&gt;2.github分支管理博客思路&lt;br&gt;3.Next主题宽度调节&lt;br&gt;4.文章底部的那个带#号的标签&lt;br&gt;5
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>搭建hadoop伪分布式平台</title>
