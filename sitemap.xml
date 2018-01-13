@@ -2,37 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/posts/b9efe76c/</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
-    <lastmod>2018-01-13T07:32:35.417Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/d2553b91/</loc>
-    
-    <lastmod>2018-01-13T07:31:20.567Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/704f0bbb/</loc>
-    
-    <lastmod>2018-01-13T07:30:21.017Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/7879e99d/</loc>
-    
-    <lastmod>2018-01-13T07:28:09.874Z</lastmod>
+    <lastmod>2018-01-13T10:57:13.505Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://yoursite.com/posts/e170b827/</loc>
     
-    <lastmod>2018-01-13T07:27:43.894Z</lastmod>
+    <lastmod>2018-01-13T07:35:27.281Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/d2553b91/</loc>
+    
+    <lastmod>2018-01-13T07:33:13.584Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/b9efe76c/</loc>
+    
+    <lastmod>2018-01-13T07:33:13.584Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/704f0bbb/</loc>
+    
+    <lastmod>2018-01-13T07:33:13.583Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/7879e99d/</loc>
+    
+    <lastmod>2018-01-13T07:33:13.581Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>http://yoursite.com/posts/16107/</loc>
     
     <lastmod>2018-01-13T06:19:57.511Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2018-01-13T06:16:37.047Z</lastmod>
     
   </url>
   
