@@ -6,10 +6,31 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-13T15:17:53.325Z</updated>
+  <updated>2018-01-13T16:50:08.627Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>未来目标</title>
+    <link href="http://yoursite.com/posts/29a76911/"/>
+    <id>http://yoursite.com/posts/29a76911/</id>
+    <published>2018-01-13T16:50:08.627Z</published>
+    <updated>2018-01-13T16:50:08.627Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h5><p>1.快速实现博客压缩<br>2.github分支管理博客思路<br>3.Next主题宽度调节<br>4.文章底部的那个带#号的标签<br>5.hexo NexT主题首页title的优化<br>6.动态title改动<br>7.给 Github 添加 README<br>8.博文置顶</p><h5 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h5><p>Ubuntu以往文章整理<br>centos整理<br>linux文件操作命令（常用+help引导）<br>权限管理（读写执行，用户组）<br>进程杀死与查询<br>查询文件命令（查询软件、查询文件下有没有这个文件）<br>脚本攥写<br>防火墙与端口</p><h5 id="大数据"><a href="#大数据" class="headerlink" title="大数据"></a>大数据</h5><p>整理以往文章</p><h5 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h5><p>从现在开始整理</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;博客&quot;&gt;&lt;a href=&quot;#博客&quot; class=&quot;headerlink&quot; title=&quot;博客&quot;&gt;&lt;/a&gt;博客&lt;/h5&gt;&lt;p&gt;1.快速实现博客压缩&lt;br&gt;2.github分支管理博客思路&lt;br&gt;3.Next主题宽度调节&lt;br&gt;4.文章底部的那个带#号的标签&lt;br&gt;5
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>搭建hadoop伪分布式平台</title>
@@ -90,13 +111,13 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github+Next-搭建个人博客2</title>
+    <title>Hexo+Github+Next-搭建个人博客(二)</title>
     <link href="http://yoursite.com/posts/7879e99d/"/>
     <id>http://yoursite.com/posts/7879e99d/</id>
     <published>2018-01-13T07:27:15.000Z</published>
-    <updated>2018-01-13T15:23:10.820Z</updated>
+    <updated>2018-01-13T16:41:20.526Z</updated>
     
-    <content type="html"><![CDATA[<p>本文是上一篇文章 “ Hexo+Github+Next 搭建个人博客(一)”的延续，主要讲述自己在配置 Next 主题时遇到的一些问题，是已经假设你已经搭好环境的情况下，如果对环境搭建还有不懂的地方，请看上一篇文章哦。</p><h4 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h4><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html</a><br><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/index.html</a></p><h4 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h4><h5 id="1-添加栏目"><a href="#1-添加栏目" class="headerlink" title="1.添加栏目"></a>1.添加栏目</h5><p>如下图， 在添加栏目时需定义路径和图标，图标既可在 menu 这里定义 (符号|| 后面就是图标的名称 )也可以在 menu_icons 定义。该图标是到 <a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">http://fontawesome.io/icons/</a> 这个网站找的。<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a599561675f8.png" alt=""></p><h5 id="2-添加社交链接"><a href="#2-添加社交链接" class="headerlink" title="2.添加社交链接"></a>2.添加社交链接</h5><p>一般情况下在 Next 的配置文件是不会定义中文字体的，中文字体都是定义在 /languages/zh-Hans.yml 文件下，但是我在 /languages/zh-Hans.yml  定义后，还是不会显示“简书”，“知乎”的中文，最后是直接在 配置文件 定义才行，如下图。</p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a5998ab9c0d6.png" alt=""></p><p>一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的。</p><h5 id="3-点击-”关于“-显示-”Cannot-GET-about-“"><a href="#3-点击-”关于“-显示-”Cannot-GET-about-“" class="headerlink" title="3.点击 ”关于“ 显示 ”Cannot GET /about/“"></a>3.点击 ”关于“ 显示 ”Cannot GET /about/“</h5><p>这是因为你没有新建页面（page）的缘故，需键入下面命令，键入后在source文件夹下会对应生成 “about” 文件夹 和 index.md 文件，index.md 便是你显示的页面了。之后你便可以肆无忌惮的写文章了。</p><blockquote><p>hexo new page about</p></blockquote><h5 id="4-显示分类的效果，如下图"><a href="#4-显示分类的效果，如下图" class="headerlink" title="4.显示分类的效果，如下图"></a>4.显示分类的效果，如下图</h5><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a09655dee.png" alt=""></p><p>该效果需要以下三个步骤：</p><blockquote><p># 1.新建页面<br>hexo new page categories<br>&ensp;<br> # 2.添加 type 和 comments<br>-–<br>title: 分类<br>date: 2018-01-13 11:12:25<br>type: “categories”<br>comments: false<br>-–<br>&ensp;<br>3.在文章添加标签<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a047dfc42.png" alt=""></p></blockquote><h5 id="5-文章链接唯一化等进阶教程"><a href="#5-文章链接唯一化等进阶教程" class="headerlink" title="5.文章链接唯一化等进阶教程"></a>5.文章链接唯一化等进阶教程</h5><p><a href="http://muyunyun.cn/posts/f55182c5/#more" target="_blank" rel="noopener">hexo 摸爬滚打之进阶教程</a><br><a href="http://blog.ynxiu.com/2016/hexo-next-theme-optimize.html" target="_blank" rel="noopener">Hexo+NexT主题配置备忘</a></p><h5 id="6-部署-Hexo-时设置免密码，节省时间"><a href="#6-部署-Hexo-时设置免密码，节省时间" class="headerlink" title="6.部署 Hexo 时设置免密码，节省时间"></a>6.部署 Hexo 时设置免密码，节省时间</h5><p><a href="https://segmentfault.com/a/1190000005125610" target="_blank" rel="noopener">设置 SSH 使用 hexo deploy 时免输用户名密码</a></p><h5 id="7-安装-HexoEditor"><a href="#7-安装-HexoEditor" class="headerlink" title="7.安装 HexoEditor"></a>7.安装 HexoEditor</h5><p>官方地址：<a href="https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md</a><br>淘宝镜像： <a href="https://npm.taobao.org/" target="_blank" rel="noopener">https://npm.taobao.org/</a></p><blockquote><p># If In China China China, you can set mirror to speed up !<br>npm config set registry “<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a>“<br>npm config set electron_mirror “<a href="https://npm.taobao.org/mirrors/electron/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/electron/</a>“</p><p># 克隆项目<br>git clone <a href="https://github.com/zhuzhuyule/HexoEditor.git" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor.git</a></p><p># 使用淘宝定制cnpm， 用npm下载总会出错<br>sudo npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p><p>cd HexoEditor<br>sudo cnpm install<br>sudo cnpm start</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>本文是上一篇文章 “ Hexo+Github+Next 搭建个人博客(一)”的延续，主要讲述自己在配置 Next 主题时遇到的一些问题，是已经假设你已经搭好环境的情况下，如果对环境搭建还有不懂的地方，请看上一篇文章哦。</p><h4 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h4><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html</a><br><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/index.html</a></p><h4 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h4><h5 id="1-添加栏目"><a href="#1-添加栏目" class="headerlink" title="1.添加栏目"></a>1.添加栏目</h5><p>如下图， 在添加栏目时需定义路径和图标，图标既可在 menu 这里定义 (符号|| 后面就是图标的名称 )也可以在 menu_icons 定义。该图标是到 <a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">http://fontawesome.io/icons/</a> 这个网站找的。<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a599561675f8.png" alt=""></p><h5 id="2-添加社交链接"><a href="#2-添加社交链接" class="headerlink" title="2.添加社交链接"></a>2.添加社交链接</h5><p>一般情况下在 Next 的配置文件是不会定义中文字体的，中文字体都是定义在 /languages/zh-Hans.yml 文件下，但是我在 /languages/zh-Hans.yml  定义后，还是不会显示“简书”，“知乎”的中文，最后是直接在 配置文件 定义才行，如下图。</p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a5998ab9c0d6.png" alt=""></p><p>一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的…</p><h5 id="3-点击-”关于“-显示-”Cannot-GET-about-“"><a href="#3-点击-”关于“-显示-”Cannot-GET-about-“" class="headerlink" title="3.点击 ”关于“ 显示 ”Cannot GET /about/“"></a>3.点击 ”关于“ 显示 ”Cannot GET /about/“</h5><p>这是因为你没有新建页面（page）的缘故，需键入下面命令，键入后在source文件夹下会对应生成 “about” 文件夹 和 index.md 文件，index.md 便是你显示的页面了。之后你便可以肆无忌惮的写文章了。</p><blockquote><p>hexo new page about</p></blockquote><h5 id="4-显示分类的效果，如下图"><a href="#4-显示分类的效果，如下图" class="headerlink" title="4.显示分类的效果，如下图"></a>4.显示分类的效果，如下图</h5><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a09655dee.png" alt=""></p><p>该效果需要以下三个步骤：</p><blockquote><p># 1.新建页面<br>hexo new page categories<br>&ensp;<br> # 2.添加 type 和 comments<br>-–<br>title: 分类<br>date: 2018-01-13 11:12:25<br>type: “categories”<br>comments: false<br>-–<br>&ensp;<br>3.在文章添加分类<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a047dfc42.png" alt=""></p></blockquote><h5 id="5-文章链接唯一化等进阶教程"><a href="#5-文章链接唯一化等进阶教程" class="headerlink" title="5.文章链接唯一化等进阶教程"></a>5.文章链接唯一化等进阶教程</h5><p><a href="http://muyunyun.cn/posts/f55182c5/#more" target="_blank" rel="noopener">hexo 摸爬滚打之进阶教程</a><br><a href="http://blog.ynxiu.com/2016/hexo-next-theme-optimize.html" target="_blank" rel="noopener">Hexo+NexT主题配置备忘</a></p><h5 id="6-部署-Hexo-时设置免密码，节省时间"><a href="#6-部署-Hexo-时设置免密码，节省时间" class="headerlink" title="6.部署 Hexo 时设置免密码，节省时间"></a>6.部署 Hexo 时设置免密码，节省时间</h5><p><a href="https://segmentfault.com/a/1190000005125610" target="_blank" rel="noopener">设置 SSH 使用 hexo deploy 时免输用户名密码</a></p><h5 id="7-安装-HexoEditor"><a href="#7-安装-HexoEditor" class="headerlink" title="7.安装 HexoEditor"></a>7.安装 HexoEditor</h5><p>官方地址：<a href="https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md</a><br>淘宝镜像： <a href="https://npm.taobao.org/" target="_blank" rel="noopener">https://npm.taobao.org/</a></p><blockquote><p># If In China China China, you can set mirror to speed up !<br>npm config set registry “<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a>“<br>npm config set electron_mirror “<a href="https://npm.taobao.org/mirrors/electron/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/electron/</a>“</p><p># 克隆项目<br>git clone <a href="https://github.com/zhuzhuyule/HexoEditor.git" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor.git</a></p><p># 使用淘宝定制cnpm， 用npm下载总会出错<br>sudo npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p><p>cd HexoEditor<br>sudo cnpm install<br>sudo cnpm start</p></blockquote>]]></content>
     
     <summary type="html">
     
@@ -111,18 +132,22 @@
       <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="Hexo，Next，博客" scheme="http://yoursite.com/tags/Hexo%EF%BC%8CNext%EF%BC%8C%E5%8D%9A%E5%AE%A2/"/>
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://yoursite.com/tags/Next/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
   <entry>
-    <title>Hexo+Github+Next-搭建个人博客1</title>
+    <title>Hexo+Github+Next-搭建个人博客(一)</title>
     <link href="http://yoursite.com/posts/e170b827/"/>
     <id>http://yoursite.com/posts/e170b827/</id>
     <published>2018-01-13T07:27:07.000Z</published>
-    <updated>2018-01-13T15:17:07.536Z</updated>
+    <updated>2018-01-13T16:38:33.343Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><p>Centos7</p><h4 id="参考教程"><a href="#参考教程" class="headerlink" title="参考教程"></a>参考教程</h4><p> <a href="https://mritd.me/2015/12/31/Github-%E6%90%AD%E5%BB%BA-Hexo-%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">Github 搭建 Hexo 静态博客</a></p><p>上面的教程采用的是  Hexo + Github + Yilia 主题，但本人在采用 Yilia 主题出现了一点问题，所以最后采用的是 Next 主题。以下是自己遇到的一些问题及解决办法</p><p>&ensp;</p><h4 id="Hexo-框架"><a href="#Hexo-框架" class="headerlink" title="Hexo 框架"></a>Hexo 框架</h4><p><strong>1.在/etc/profle 配置了node.js 的路径，用“sudo npm install …” 提示 “sudo npm  找不到命令“</strong></p><p>原因：当 sudo以管理权限执行命令的时候，Linux将PATH环境变量进行了重置，当然这主要是因为系统安全的考虑,所以会找不到该路径。</p><p>解决办法（路径要更改为自己的）：</p><blockquote><p>sudo ln -s /usr/local/node-v8.9.3/bin/node /usr/bin/node<br>sudo ln -s /usr/local/node-v8.9.3/lib/node_modules /usr/lib/node<br>sudo ln -s /usr/local/node-v8.9.3/bin/npm /usr/bin/npm</p></blockquote><p>参考： <a href="https://www.cnblogs.com/ishell/p/4333763.html" target="_blank" rel="noopener">https://www.cnblogs.com/ishell/p/4333763.html</a></p><p><strong>2.让 hexo server 后台运行</strong><br><a href="http://www.tuijiankan.com/2015/05/08/hexo-forever-run/" target="_blank" rel="noopener">http://www.tuijiankan.com/2015/05/08/hexo-forever-run/</a></p><p>&ensp;</p><h4 id="yilia主题"><a href="#yilia主题" class="headerlink" title="yilia主题"></a>yilia主题</h4><p>1 采用 yilia 主题的博客<br><a href="http://litten.me/" target="_blank" rel="noopener">http://litten.me/</a><br><a href="http://zbk1nger.github.io/" target="_blank" rel="noopener">http://zbk1nger.github.io/</a></p><p><strong>2 采用 yilia 主题时图片的路径问题</strong></p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a52fd433701e.png" alt=""></p><p>如图，我在 yilia 的配置文件分别配置了三张图片：支付宝、微信的收款码和个人头像。上图的 /img 文件夹 注意是要放在 根目录下的 source 文件夹下，再通过以下这三条命令生成便可预览。</p><blockquote><p>hexo clean   # 清除缓存<br>hexo g       # 生成静态文件<br>hexo s       # 启动服务器预览</p></blockquote><p><strong>3 yilia 主题发布的文章 在主页显示时 文章的内容 会全部显示，个人觉得那样很长很难看，所以想要部分展示的效果，类似于这样</strong><br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a5344eb4d699.png" alt=""></p><p>解决办法：在文章需要截断的位置加上 more 标签，如下图</p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a534580a826c.png" alt=""></p><p>但是添加标签后出现了上图的效果，与“展开全文”重复，而且也不好看，本人没学过前端，故最后切换成 Next 主题。</p><p>&ensp;</p><h4 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h4><p>Next 主题的配置见本人的下一篇博客 “Hexo+Github+Next 搭建个人博客(一)”。</p><p>&ensp;</p><h4 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h4><p>搭建个人博客，你需要知道这些<br><a href="https://zhuanlan.zhihu.com/p/25744686" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/25744686</a></p><p>好看的 Hexo 主题<br><a href="https://www.zhihu.com/question/24422335" target="_blank" rel="noopener">https://www.zhihu.com/question/24422335</a></p>]]></content>
+    <content type="html"><![CDATA[<h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><p>Centos7</p><h4 id="参考教程"><a href="#参考教程" class="headerlink" title="参考教程"></a>参考教程</h4><p> <a href="https://mritd.me/2015/12/31/Github-%E6%90%AD%E5%BB%BA-Hexo-%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">Github 搭建 Hexo 静态博客</a></p><p>上面的教程采用的是  Hexo + Github + Yilia 主题，但本人在采用 Yilia 主题出现了一点问题，所以最后采用的是 Next 主题。以下是自己遇到的一些问题及解决办法</p><h4 id="Hexo-框架"><a href="#Hexo-框架" class="headerlink" title="Hexo 框架"></a>Hexo 框架</h4><p><strong>1.在/etc/profle 配置了node.js 的路径，用“sudo npm install …” 提示 “sudo npm  找不到命令“</strong></p><p>原因：当 sudo以管理权限执行命令的时候，Linux将PATH环境变量进行了重置，当然这主要是因为系统安全的考虑,所以会找不到该路径。</p><p>解决办法（路径要更改为自己的）：</p><blockquote><p>sudo ln -s /usr/local/node-v8.9.3/bin/node /usr/bin/node<br>sudo ln -s /usr/local/node-v8.9.3/lib/node_modules /usr/lib/node<br>sudo ln -s /usr/local/node-v8.9.3/bin/npm /usr/bin/npm</p></blockquote><p>参考： <a href="https://www.cnblogs.com/ishell/p/4333763.html" target="_blank" rel="noopener">https://www.cnblogs.com/ishell/p/4333763.html</a></p><p><strong>2.让 hexo server 后台运行</strong><br><a href="http://www.tuijiankan.com/2015/05/08/hexo-forever-run/" target="_blank" rel="noopener">http://www.tuijiankan.com/2015/05/08/hexo-forever-run/</a></p><h4 id="yilia主题"><a href="#yilia主题" class="headerlink" title="yilia主题"></a>yilia主题</h4><p>1 采用 yilia 主题的博客<br><a href="http://litten.me/" target="_blank" rel="noopener">http://litten.me/</a><br><a href="http://zbk1nger.github.io/" target="_blank" rel="noopener">http://zbk1nger.github.io/</a></p><p><strong>2 采用 yilia 主题时图片的路径问题</strong></p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a52fd433701e.png" alt=""></p><p>如图，我在 yilia 的配置文件分别配置了三张图片：支付宝、微信的收款码和个人头像。上图的 /img 文件夹 注意是要放在 根目录下的 source 文件夹下，再通过以下这三条命令生成便可预览。</p><blockquote><p>hexo clean   # 清除缓存<br>hexo g       # 生成静态文件<br>hexo s       # 启动服务器预览</p></blockquote><p><strong>3 yilia 主题发布的文章 在主页显示时 文章的内容 会全部显示，个人觉得那样很长很难看，所以想要部分展示的效果，类似于这样</strong><br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a5344eb4d699.png" alt=""></p><p>解决办法：在文章需要截断的位置加上 more 标签，如下图</p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a534580a826c.png" alt=""></p><p>但是添加标签后出现了上图的效果，与“展开全文”重复，而且也不好看，本人没学过前端，故最后切换成 Next 主题。</p><h4 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h4><p>Next 主题的配置见本人的下一篇博客 “Hexo+Github+Next 搭建个人博客(二)”。</p><h4 id="其它链接"><a href="#其它链接" class="headerlink" title="其它链接"></a>其它链接</h4><p>搭建个人博客，你需要知道这些<br><a href="https://zhuanlan.zhihu.com/p/25744686" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/25744686</a></p><p>好看的 Hexo 主题<br><a href="https://www.zhihu.com/question/24422335" target="_blank" rel="noopener">https://www.zhihu.com/question/24422335</a></p>]]></content>
     
     <summary type="html">
     
@@ -137,7 +162,11 @@
       <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="Hexo，Next，博客" scheme="http://yoursite.com/tags/Hexo%EF%BC%8CNext%EF%BC%8C%E5%8D%9A%E5%AE%A2/"/>
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://yoursite.com/tags/Next/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   

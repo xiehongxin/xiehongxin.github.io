@@ -75,17 +75,14 @@
 
 
 
-<meta name="description" content="你， 终于来了！关于我博主性别男，90后，主要涉猎Linux、大数据及机器学习这几个方面，希望通过这个平台来整理自己的所见所得，也希望通过这个平台能与更多同行切磋交流！ 博文原则1.由于博主现实力不够，所以博客内容以整理为主，原创为辅；2.原创内容若有参考他人文章，会在文末或者文中给出参考链接；3.博主几乎不转载文章，一般倾向于给参考链接，若有转载的文章，也会尊重作者版权，遵守转载协议。 版权问题">
 <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta property="og:title" content="分类">
+<meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="Hong Xin">
-<meta property="og:description" content="你， 终于来了！关于我博主性别男，90后，主要涉猎Linux、大数据及机器学习这几个方面，希望通过这个平台来整理自己的所见所得，也希望通过这个平台能与更多同行切磋交流！ 博文原则1.由于博主现实力不够，所以博客内容以整理为主，原创为辅；2.原创内容若有参考他人文章，会在文末或者文中给出参考链接；3.博主几乎不转载文章，一般倾向于给参考链接，若有转载的文章，也会尊重作者版权，遵守转载协议。 版权问题">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-01-13T10:57:13.505Z">
+<meta property="og:updated_time" content="2018-01-13T04:32:51.056Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="你， 终于来了！关于我博主性别男，90后，主要涉猎Linux、大数据及机器学习这几个方面，希望通过这个平台来整理自己的所见所得，也希望通过这个平台能与更多同行切磋交流！ 博文原则1.由于博主现实力不够，所以博客内容以整理为主，原创为辅；2.原创内容若有参考他人文章，会在文末或者文中给出参考链接；3.博主几乎不转载文章，一般倾向于给参考链接，若有转载的文章，也会尊重作者版权，遵守转载协议。 版权问题">
+<meta name="twitter:title" content="分类">
 
 
 
@@ -117,13 +114,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/about/"/>
+  <link rel="canonical" href="http://yoursite.com/categories/"/>
 
 
 
 
 
-  <title>Hexo+Github+Next-搭建个人博客2 | Hong Xin</title>
+  <title>Hexo+Github+Next-搭建个人博客(二) | Hong Xin</title>
   
 
 
@@ -311,7 +308,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hexo+Github+Next-搭建个人博客2</h1>
+          <h1 class="post-title" itemprop="name headline">Hexo+Github+Next-搭建个人博客(二)</h1>
         
 
         <div class="post-meta">
@@ -397,7 +394,7 @@
 <h4 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h4><h5 id="1-添加栏目"><a href="#1-添加栏目" class="headerlink" title="1.添加栏目"></a>1.添加栏目</h5><p>如下图， 在添加栏目时需定义路径和图标，图标既可在 menu 这里定义 (符号|| 后面就是图标的名称 )也可以在 menu_icons 定义。该图标是到 <a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">http://fontawesome.io/icons/</a> 这个网站找的。<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a599561675f8.png" alt=""></p>
 <h5 id="2-添加社交链接"><a href="#2-添加社交链接" class="headerlink" title="2.添加社交链接"></a>2.添加社交链接</h5><p>一般情况下在 Next 的配置文件是不会定义中文字体的，中文字体都是定义在 /languages/zh-Hans.yml 文件下，但是我在 /languages/zh-Hans.yml  定义后，还是不会显示“简书”，“知乎”的中文，最后是直接在 配置文件 定义才行，如下图。</p>
 <p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a5998ab9c0d6.png" alt=""></p>
-<p>一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的。</p>
+<p>一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的…</p>
 <h5 id="3-点击-”关于“-显示-”Cannot-GET-about-“"><a href="#3-点击-”关于“-显示-”Cannot-GET-about-“" class="headerlink" title="3.点击 ”关于“ 显示 ”Cannot GET /about/“"></a>3.点击 ”关于“ 显示 ”Cannot GET /about/“</h5><p>这是因为你没有新建页面（page）的缘故，需键入下面命令，键入后在source文件夹下会对应生成 “about” 文件夹 和 index.md 文件，index.md 便是你显示的页面了。之后你便可以肆无忌惮的写文章了。</p>
 <blockquote>
 <p>hexo new page about</p>
@@ -405,7 +402,7 @@
 <h5 id="4-显示分类的效果，如下图"><a href="#4-显示分类的效果，如下图" class="headerlink" title="4.显示分类的效果，如下图"></a>4.显示分类的效果，如下图</h5><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a09655dee.png" alt=""></p>
 <p>该效果需要以下三个步骤：</p>
 <blockquote>
-<p># 1.新建页面<br>hexo new page categories<br>&ensp;<br> # 2.添加 type 和 comments<br>-–<br>title: 分类<br>date: 2018-01-13 11:12:25<br>type: “categories”<br>comments: false<br>-–<br>&ensp;<br>3.在文章添加标签<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a047dfc42.png" alt=""></p>
+<p># 1.新建页面<br>hexo new page categories<br>&ensp;<br> # 2.添加 type 和 comments<br>-–<br>title: 分类<br>date: 2018-01-13 11:12:25<br>type: “categories”<br>comments: false<br>-–<br>&ensp;<br>3.在文章添加分类<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a047dfc42.png" alt=""></p>
 </blockquote>
 <h5 id="5-文章链接唯一化等进阶教程"><a href="#5-文章链接唯一化等进阶教程" class="headerlink" title="5.文章链接唯一化等进阶教程"></a>5.文章链接唯一化等进阶教程</h5><p><a href="http://muyunyun.cn/posts/f55182c5/#more" target="_blank" rel="noopener">hexo 摸爬滚打之进阶教程</a><br><a href="http://blog.ynxiu.com/2016/hexo-next-theme-optimize.html" target="_blank" rel="noopener">Hexo+NexT主题配置备忘</a></p>
 <h5 id="6-部署-Hexo-时设置免密码，节省时间"><a href="#6-部署-Hexo-时设置免密码，节省时间" class="headerlink" title="6.部署 Hexo 时设置免密码，节省时间"></a>6.部署 Hexo 时设置免密码，节省时间</h5><p><a href="https://segmentfault.com/a/1190000005125610" target="_blank" rel="noopener">设置 SSH 使用 hexo deploy 时免输用户名密码</a></p>
@@ -457,7 +454,11 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo，Next，博客/" rel="tag"># Hexo，Next，博客</a>
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+            <a href="/tags/Next/" rel="tag"># Next</a>
+          
+            <a href="/tags/博客/" rel="tag"># 博客</a>
           
         </div>
       
@@ -470,8 +471,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/e170b827/" rel="next" title="Hexo+Github+Next-搭建个人博客1">
-                <i class="fa fa-chevron-left"></i> Hexo+Github+Next-搭建个人博客1
+              <a href="/posts/e170b827/" rel="next" title="Hexo+Github+Next-搭建个人博客(一)">
+                <i class="fa fa-chevron-left"></i> Hexo+Github+Next-搭建个人博客(一)
               </a>
             
           </div>
@@ -569,7 +570,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -591,7 +592,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -818,7 +819,7 @@
         var disqus_config = function () {
           this.page.url = 'http://yoursite.com/posts/7879e99d/';
           this.page.identifier = 'posts/7879e99d/';
-          this.page.title = 'Hexo+Github+Next-搭建个人博客2';
+          this.page.title = 'Hexo+Github+Next-搭建个人博客(二)';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://hongxin.disqus.com/embed.js';
