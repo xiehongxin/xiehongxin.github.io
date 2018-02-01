@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[在服务器后台运行Python程序]]></title>
+    <title><![CDATA[Android-Studio版本更新]]></title>
+    <url>%2Fposts%2F63e75df2%2F</url>
+    <content type="text"><![CDATA[1 环境旧环境：win10 64bit Android Studio1.5 gradle1.5.0 API23新环境：win10 64bit Android Studio3.0 gradle3.0.0 API23 2 Android Studio 3.0 简介http://blog.csdn.net/tz_zs/article/details/72728179 3 下载http://blog.csdn.net/DickyQie/article/details/78136337 （推荐）https://developer.android.google.cn/studio/preview/index.html 4 安装（已安装其他版本/无安装其他版本）http://www.jianshu.com/p/fbac2dbd81bc AS3.0 主要亮点是支持Kotlin，以下是Kotlin的相关内容: 谷歌大牛说：为什么 Kotlin 比你们用的那些垃圾语言都好 Android Studio配置Kotlin开发环境]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[导入Ghost-Android工程]]></title>
+    <url>%2Fposts%2F6b9a598%2F</url>
+    <content type="text"><![CDATA[背景&ensp;&ensp;导入Ghost-Android工程后，相关的 依赖包/插件 一直没有下载成功，反复重启AS+通宵下载 后，发现可能是[ ‘com.crashlytics.sdk.android:answers:1.3.7@aar’] 这个包下载不成功导致其他包也下载不成功。 将这个依赖注释后重新下载，其他包下载成功！ &ensp;&ensp;虽然将这个依赖注释后重新下载，其他包能下载成功，但还是没办法运行Ghost-Android工程，最后尝试取消注释，重新下载，居然成功了，猜想是代理不稳定导致的。 Ghost-Android github地址https://github.com/TryGhost/Ghost-Android 查看下载的依赖包 C:\Users\hongxin.gradle\caches\modules-2\files-2.1 (我的路径) @aar 和 transitive = true 的含义https://stackoverflow.com/questions/44902339/whats-the-meaning-of-aar-with-transitive-true 一文读懂Gradlehttp://android.walfud.com/tag/android/]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[搭建个人博客(三)-Atom编辑器+七牛云图床]]></title>
+    <url>%2Fposts%2F7879e99d%2F</url>
+    <content type="text"><![CDATA[背景：本篇文章主要讲述的是采用 Hexo+Github+Next 框架搭建个人博客后，图床和编辑器的选择及相关介绍。为什么要选择编辑器呢？当然是为了提高博客的访问速度。图床的选择其实比较简单，因为网上大多数人都推荐七牛云，主要是它有10GB免费存储空间等福利为什么要选择编辑器呢？当然是为了节省时间。如果没有合适的编辑器，则每次写博客都要先上传图片到七牛云，再一个个地复制图片链接到文章中，这显然浪费了很多时间。经过层层筛选，博主最终选择了 Atom 这个编辑器，通过下载几个插件，就可以实现边写文字边上传图片的功能了，岂不乐哉！ 以下主要是关于 Atom 的介绍： 1.在Atom下配置七牛云作为图床参考http://blog.csdn.net/shunxiangl/article/details/75944126http://blog.csdn.net/qq_31915279/article/details/61824114 注：1.1 博主因为配置了代理，所以下载插件时不会出现下载不成功的情况。1.2 要想上传图片到七牛云，必须绑定你自己的域名或者用七牛云的测试域名，如果用七牛云的测试域名，则新建的存储空间必须是公开的。1.3 要想实现上传图片，必须先截图，再Ctrl+C，Ctrl+V，而不能单纯复制粘贴你下载好的图片。 2.Atom 汉化 http://blog.csdn.net/u013366098/article/details/505687793.Atom 与 Hexo 的结合再一次体验到 Atom 的强大之处，因为它竟然支持 Hexo 等框架，只需下载 markdown-writer 插件就可实现与 Hexo 的对接，再一次节省了写博客的时间！参考教程：http://blog.csdn.net/u010494080/article/details/53562939]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Next</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Linux-后台运行Python程序]]></title>
     <url>%2Fposts%2Fd2553b91%2F</url>
     <content type="text"><![CDATA[方式一：nohup 命令 该命令会在后台执行 main.py 这个程序，并将输出结果保存到 nohup.out 文件 nohup python main.py &amp; 将输出结果更改到 filename.out 文件。 nohup python main.py &gt;filename.out 2&gt;&amp;1 &amp; 查看后台运行的任务 jobs nohup命令解释https://www.cnblogs.com/zq-inlook/p/3577003.html 方式二：https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/]]></content>
       <categories>
@@ -17,7 +46,7 @@
       </categories>
   </entry>
   <entry>
-    <title><![CDATA[Hexo+Github+Next-搭建个人博客(二)]]></title>
+    <title><![CDATA[搭建个人博客(二)- Next主题配置]]></title>
     <url>%2Fposts%2F7879e99d%2F</url>
     <content type="text"><![CDATA[本文是上一篇文章 “ Hexo+Github+Next 搭建个人博客(一)”的延续，主要讲述自己在配置 Next 主题时遇到的一些问题，是已经假设你已经搭好环境的情况下，如果对环境搭建还有不懂的地方，请看上一篇文章哦。 文档http://theme-next.iissnan.com/getting-started.htmlhttps://hexo.io/zh-cn/docs/index.html 遇到的问题1.添加栏目如下图， 在添加栏目时需定义路径和图标，图标既可在 menu 这里定义 (符号|| 后面就是图标的名称 )也可以在 menu_icons 定义。该图标是到 http://fontawesome.io/icons/ 这个网站找的。 2.添加社交链接一般情况下在 Next 的配置文件是不会定义中文字体的，中文字体都是定义在 /languages/zh-Hans.yml 文件下，但是我在 /languages/zh-Hans.yml 定义后，还是不会显示“简书”，“知乎”的中文，最后是直接在 配置文件 定义才行，如下图。 一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的… 3.点击 ”关于“ 显示 ”Cannot GET /about/“这是因为你没有新建页面（page）的缘故，需键入下面命令，键入后在source文件夹下会对应生成 “about” 文件夹 和 index.md 文件，index.md 便是你显示的页面了。之后你便可以肆无忌惮的写文章了。 hexo new page about 4.显示分类的效果，如下图 该效果需要以下三个步骤： # 1.新建页面hexo new page categories&ensp; # 2.添加 type 和 comments-–title: 分类date: 2018-01-13 11:12:25type: “categories”comments: false-–&ensp;3.在文章添加分类 5.部署 Hexo 时设置免密码，节省时间设置 SSH 使用 hexo deploy 时免输用户名密码 6.安装 HexoEditor官方地址：https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md淘宝镜像： https://npm.taobao.org/ # If In China China China, you can set mirror to speed up !npm config set registry “https://registry.npm.taobao.org“npm config set electron_mirror “https://npm.taobao.org/mirrors/electron/“ # 克隆项目git clone https://github.com/zhuzhuyule/HexoEditor.git # 使用淘宝定制cnpm， 用npm下载总会出错sudo npm install -g cnpm –registry=https://registry.npm.taobao.org cd HexoEditorsudo cnpm installsudo cnpm start 7.更换Google字体更换Google字体主要是它影响了站点的访问速度，对于这个问题，有几种解决办法： 换国内源，比如使用 360 CDN Google 字体库(貌似挂了)、科大 CDN Google 字体库(懒人推荐) 使用本地 Google Fonts 8.字数，阅读时长统计hexo-wordcount实现文章标题栏显示更多的文章信息 9.进阶教程hexo 摸爬滚打之进阶教程Hexo+NexT主题配置备忘Hexo博客优化，如何加快你的博客访问速度(精)]]></content>
       <categories>
@@ -30,7 +59,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Hexo+Github+Next-搭建个人博客(一)]]></title>
+    <title><![CDATA[搭建个人博客(一)-框架选择及小尝试]]></title>
     <url>%2Fposts%2Fe170b827%2F</url>
     <content type="text"><![CDATA[环境Centos7 参考教程 Github 搭建 Hexo 静态博客 上面的教程采用的是 Hexo + Github + Yilia 主题，但本人在采用 Yilia 主题出现了一点问题，所以最后采用的是 Next 主题。以下是自己遇到的一些问题及解决办法 Hexo 框架1.在/etc/profle 配置了node.js 的路径，用“sudo npm install …” 提示 “sudo npm 找不到命令“ 原因：当 sudo以管理权限执行命令的时候，Linux将PATH环境变量进行了重置，当然这主要是因为系统安全的考虑,所以会找不到该路径。 解决办法（路径要更改为自己的）： sudo ln -s /usr/local/node-v8.9.3/bin/node /usr/bin/nodesudo ln -s /usr/local/node-v8.9.3/lib/node_modules /usr/lib/nodesudo ln -s /usr/local/node-v8.9.3/bin/npm /usr/bin/npm 参考： https://www.cnblogs.com/ishell/p/4333763.html 2.让 hexo server 后台运行http://www.tuijiankan.com/2015/05/08/hexo-forever-run/ yilia主题1 采用 yilia 主题的博客http://litten.me/http://zbk1nger.github.io/ 2 采用 yilia 主题时图片的路径问题 如图，我在 yilia 的配置文件分别配置了三张图片：支付宝、微信的收款码和个人头像。上图的 /img 文件夹 注意是要放在 根目录下的 source 文件夹下，再通过以下这三条命令生成便可预览。 hexo clean # 清除缓存hexo g # 生成静态文件hexo s # 启动服务器预览 3 yilia 主题发布的文章 在主页显示时 文章的内容 会全部显示，个人觉得那样很长很难看，所以想要部分展示的效果，类似于这样 解决办法：在文章需要截断的位置加上 more 标签，如下图 但是添加标签后出现了上图的效果，与“展开全文”重复，而且也不好看，本人没学过前端，故最后切换成 Next 主题。 Next主题Next 主题的配置见本人的下一篇博客 “Hexo+Github+Next 搭建个人博客(二)”。 其它链接搭建个人博客，你需要知道这些https://zhuanlan.zhihu.com/p/25744686 好看的 Hexo 主题https://www.zhihu.com/question/24422335]]></content>
       <categories>

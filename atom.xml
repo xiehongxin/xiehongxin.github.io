@@ -6,19 +6,95 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-13T07:33:13.584Z</updated>
+  <updated>2018-02-01T08:54:13.386Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>在服务器后台运行Python程序</title>
+    <title>Android-Studio版本更新</title>
+    <link href="http://yoursite.com/posts/63e75df2/"/>
+    <id>http://yoursite.com/posts/63e75df2/</id>
+    <published>2018-02-01T08:54:00.000Z</published>
+    <updated>2018-02-01T08:54:13.386Z</updated>
+    
+    <content type="html"><![CDATA[<p>1 环境<br>旧环境：win10 64bit Android Studio1.5 gradle1.5.0 API23<br>新环境：win10 64bit Android Studio3.0 gradle3.0.0 API23</p><p>2 Android Studio 3.0 简介<br><a href="http://blog.csdn.net/tz_zs/article/details/72728179" target="_blank" rel="noopener">http://blog.csdn.net/tz_zs/article/details/72728179</a></p><p>3 下载<br><a href="http://blog.csdn.net/DickyQie/article/details/78136337" target="_blank" rel="noopener">http://blog.csdn.net/DickyQie/article/details/78136337</a> （推荐）<br><a href="https://developer.android.google.cn/studio/preview/index.html" target="_blank" rel="noopener">https://developer.android.google.cn/studio/preview/index.html</a></p><p>4 安装（已安装其他版本/无安装其他版本）<br><a href="http://www.jianshu.com/p/fbac2dbd81bc" target="_blank" rel="noopener">http://www.jianshu.com/p/fbac2dbd81bc</a></p><p> <br>AS3.0 主要亮点是支持Kotlin，以下是Kotlin的相关内容:</p><p><a href="http://blog.jobbole.com/111249/" target="_blank" rel="noopener">谷歌大牛说：为什么 Kotlin 比你们用的那些垃圾语言都好</a></p><p><a href="http://blog.csdn.net/qq_23547831/article/details/52857346" target="_blank" rel="noopener">Android Studio配置Kotlin开发环境</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1 环境&lt;br&gt;旧环境：win10 64bit Android Studio1.5 gradle1.5.0 API23&lt;br&gt;新环境：win10 64bit Android Studio3.0 gradle3.0.0 API23&lt;/p&gt;
+&lt;p&gt;2 Android Studi
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导入Ghost-Android工程</title>
+    <link href="http://yoursite.com/posts/6b9a598/"/>
+    <id>http://yoursite.com/posts/6b9a598/</id>
+    <published>2018-02-01T08:53:00.000Z</published>
+    <updated>2018-02-01T08:53:48.745Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h5><p>&ensp;&ensp;导入Ghost-Android工程后，相关的 依赖包/插件 一直没有下载成功，反复重启AS+通宵下载 后，发现可能是[ ‘com.crashlytics.sdk.android:answers:1.3.7@aar’] 这个包下载不成功导致其他包也下载不成功。 <strong>将这个依赖注释后</strong>重新下载，<strong>其他包下载成功</strong>！</p><p>&ensp;&ensp;虽然将这个依赖注释后重新下载，其他包能下载成功，但还是没办法运行Ghost-Android工程，<strong>最后尝试取消注释，重新下载，居然成功了</strong>，猜想是代理不稳定导致的。</p><h5 id="Ghost-Android-github地址"><a href="#Ghost-Android-github地址" class="headerlink" title="Ghost-Android github地址"></a>Ghost-Android github地址</h5><p><a href="https://github.com/TryGhost/Ghost-Android" target="_blank" rel="noopener">https://github.com/TryGhost/Ghost-Android</a></p><h5 id="查看下载的依赖包"><a href="#查看下载的依赖包" class="headerlink" title="查看下载的依赖包"></a>查看下载的依赖包</h5><blockquote><p>C:\Users\hongxin.gradle\caches\modules-2\files-2.1 (我的路径)</p></blockquote><h5 id="aar-和-transitive-true-的含义"><a href="#aar-和-transitive-true-的含义" class="headerlink" title="@aar 和 transitive = true 的含义"></a>@aar 和 transitive = true 的含义</h5><p><a href="https://stackoverflow.com/questions/44902339/whats-the-meaning-of-aar-with-transitive-true" target="_blank" rel="noopener">https://stackoverflow.com/questions/44902339/whats-the-meaning-of-aar-with-transitive-true</a></p><h5 id="一文读懂Gradle"><a href="#一文读懂Gradle" class="headerlink" title="一文读懂Gradle"></a>一文读懂Gradle</h5><p><a href="http://android.walfud.com/tag/android/" target="_blank" rel="noopener">http://android.walfud.com/tag/android/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h5&gt;&lt;p&gt;&amp;ensp;&amp;ensp;导入Ghost-Android工程后，相关的 依赖包/插件 一直没有下载成功，反复重启AS+通宵下载 后，发现可能是
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>搭建个人博客(三)-Atom编辑器+七牛云图床</title>
+    <link href="http://yoursite.com/posts/7879e99d/"/>
+    <id>http://yoursite.com/posts/7879e99d/</id>
+    <published>2018-02-01T08:45:15.000Z</published>
+    <updated>2018-02-01T08:45:11.975Z</updated>
+    
+    <content type="html"><![CDATA[<p>背景：<br>本篇文章主要讲述的是采用 Hexo+Github+Next 框架搭建个人博客后，图床和编辑器的选择及相关介绍。<br>为什么要选择编辑器呢？当然是为了提高博客的访问速度。图床的选择其实比较简单，因为网上大多数人都推荐七牛云，主要是它有10GB免费存储空间等福利<br>为什么要选择编辑器呢？当然是为了节省时间。如果没有合适的编辑器，则每次写博客都要先上传图片到七牛云，再一个个地复制图片链接到文章中，这显然浪费了很多时间。经过层层筛选，博主最终选择了 Atom 这个编辑器，通过下载几个插件，就可以实现边写文字边上传图片的功能了，岂不乐哉！</p><p>以下主要是关于 Atom 的介绍：</p><h5 id="1-在Atom下配置七牛云作为图床"><a href="#1-在Atom下配置七牛云作为图床" class="headerlink" title="1.在Atom下配置七牛云作为图床"></a>1.在Atom下配置七牛云作为图床</h5><p>参考<br><a href="http://blog.csdn.net/shunxiangl/article/details/75944126" target="_blank" rel="noopener">http://blog.csdn.net/shunxiangl/article/details/75944126</a><br><a href="http://blog.csdn.net/qq_31915279/article/details/61824114" target="_blank" rel="noopener">http://blog.csdn.net/qq_31915279/article/details/61824114</a></p><p>注：<br>1.1 博主因为配置了代理，所以下载插件时不会出现下载不成功的情况。<br>1.2 要想上传图片到七牛云，必须绑定你自己的域名或者用<br>七牛云的测试域名，如果用七牛云的测试域名，则新建的存储空间必须是公开的。<br>1.3 要想实现上传图片，必须先截图，再Ctrl+C，Ctrl+V，而不能单纯复制粘贴你下载好的图片。</p><h5 id="2-Atom-汉化-http-blog-csdn-net-u013366098-article-details-50568779"><a href="#2-Atom-汉化-http-blog-csdn-net-u013366098-article-details-50568779" class="headerlink" title="2.Atom 汉化 http://blog.csdn.net/u013366098/article/details/50568779"></a>2.Atom 汉化 <a href="http://blog.csdn.net/u013366098/article/details/50568779" target="_blank" rel="noopener">http://blog.csdn.net/u013366098/article/details/50568779</a></h5><h5 id="3-Atom-与-Hexo-的结合"><a href="#3-Atom-与-Hexo-的结合" class="headerlink" title="3.Atom 与 Hexo 的结合"></a>3.Atom 与 Hexo 的结合</h5><p>再一次体验到 Atom 的强大之处，因为它竟然支持 Hexo 等框架，只需下载 markdown-writer 插件就可实现与 Hexo 的对接，再一次节省了写博客的时间！<br>参考教程：<a href="http://blog.csdn.net/u010494080/article/details/53562939" target="_blank" rel="noopener">http://blog.csdn.net/u010494080/article/details/53562939</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;背景：&lt;br&gt;本篇文章主要讲述的是采用 Hexo+Github+Next 框架搭建个人博客后，图床和编辑器的选择及相关介绍。&lt;br&gt;为什么要选择编辑器呢？当然是为了提高博客的访问速度。图床的选择其实比较简单，因为网上大多数人都推荐七牛云，主要是它有10GB免费存储空间等福利
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Next" scheme="http://yoursite.com/tags/Next/"/>
+    
+      <category term="博客" scheme="http://yoursite.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux-后台运行Python程序</title>
     <link href="http://yoursite.com/posts/d2553b91/"/>
     <id>http://yoursite.com/posts/d2553b91/</id>
     <published>2018-01-13T07:30:55.000Z</published>
-    <updated>2018-01-13T07:33:13.584Z</updated>
+    <updated>2018-02-01T08:48:08.974Z</updated>
     
-    <content type="html"><![CDATA[<p>方式一：nohup 命令</p><p>该命令会在后台执行 main.py 这个程序，并将输出结果保存到 nohup.out 文件</p><blockquote><p>nohup python main.py &amp;</p></blockquote><p>将输出结果更改到 filename.out 文件。</p><blockquote><p>nohup python main.py &gt;filename.out 2&gt;&amp;1 &amp; </p></blockquote><p>查看后台运行的任务</p><blockquote><p>jobs </p></blockquote><p>nohup命令解释<br><a href="https://www.cnblogs.com/zq-inlook/p/3577003.html" target="_blank" rel="noopener">https://www.cnblogs.com/zq-inlook/p/3577003.html</a></p><p>方式二：<br><a href="https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/</a></p>]]></content>
+    <content type="html"><![CDATA[<p>方式一：nohup 命令</p><p>该命令会在后台执行 main.py 这个程序，并将输出结果保存到 nohup.out 文件</p><blockquote><p>nohup python main.py &amp;</p></blockquote><p>将输出结果更改到 filename.out 文件。</p><blockquote><p>nohup python main.py &gt;filename.out 2&gt;&amp;1 &amp;</p></blockquote><p>查看后台运行的任务</p><blockquote><p>jobs</p></blockquote><p>nohup命令解释<br><a href="https://www.cnblogs.com/zq-inlook/p/3577003.html" target="_blank" rel="noopener">https://www.cnblogs.com/zq-inlook/p/3577003.html</a></p><p>方式二：<br><a href="https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/" target="_blank" rel="noopener">https://www.ibm.com/developerworks/cn/linux/l-cn-nohup/</a></p>]]></content>
     
     <summary type="html">
     
@@ -64,11 +140,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github+Next-搭建个人博客(二)</title>
+    <title>搭建个人博客(二)- Next主题配置</title>
     <link href="http://yoursite.com/posts/7879e99d/"/>
     <id>http://yoursite.com/posts/7879e99d/</id>
     <published>2018-01-13T07:27:15.000Z</published>
-    <updated>2018-01-14T05:55:11.306Z</updated>
+    <updated>2018-02-01T08:45:59.044Z</updated>
     
     <content type="html"><![CDATA[<p>本文是上一篇文章 “ Hexo+Github+Next 搭建个人博客(一)”的延续，主要讲述自己在配置 Next 主题时遇到的一些问题，是已经假设你已经搭好环境的情况下，如果对环境搭建还有不懂的地方，请看上一篇文章哦。</p><h4 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h4><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html</a><br><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/index.html</a></p><h4 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h4><h5 id="1-添加栏目"><a href="#1-添加栏目" class="headerlink" title="1.添加栏目"></a>1.添加栏目</h5><p>如下图， 在添加栏目时需定义路径和图标，图标既可在 menu 这里定义 (符号|| 后面就是图标的名称 )也可以在 menu_icons 定义。该图标是到 <a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">http://fontawesome.io/icons/</a> 这个网站找的。<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a599561675f8.png" alt=""></p><h5 id="2-添加社交链接"><a href="#2-添加社交链接" class="headerlink" title="2.添加社交链接"></a>2.添加社交链接</h5><p>一般情况下在 Next 的配置文件是不会定义中文字体的，中文字体都是定义在 /languages/zh-Hans.yml 文件下，但是我在 /languages/zh-Hans.yml  定义后，还是不会显示“简书”，“知乎”的中文，最后是直接在 配置文件 定义才行，如下图。</p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a5998ab9c0d6.png" alt=""></p><p>一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的…</p><h5 id="3-点击-”关于“-显示-”Cannot-GET-about-“"><a href="#3-点击-”关于“-显示-”Cannot-GET-about-“" class="headerlink" title="3.点击 ”关于“ 显示 ”Cannot GET /about/“"></a>3.点击 ”关于“ 显示 ”Cannot GET /about/“</h5><p>这是因为你没有新建页面（page）的缘故，需键入下面命令，键入后在source文件夹下会对应生成 “about” 文件夹 和 index.md 文件，index.md 便是你显示的页面了。之后你便可以肆无忌惮的写文章了。</p><blockquote><p>hexo new page about</p></blockquote><h5 id="4-显示分类的效果，如下图"><a href="#4-显示分类的效果，如下图" class="headerlink" title="4.显示分类的效果，如下图"></a>4.显示分类的效果，如下图</h5><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a09655dee.png" alt=""></p><p>该效果需要以下三个步骤：</p><blockquote><p># 1.新建页面<br>hexo new page categories<br>&ensp;<br> # 2.添加 type 和 comments<br>-–<br>title: 分类<br>date: 2018-01-13 11:12:25<br>type: “categories”<br>comments: false<br>-–<br>&ensp;<br>3.在文章添加分类<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a047dfc42.png" alt=""></p></blockquote><h5 id="5-部署-Hexo-时设置免密码，节省时间"><a href="#5-部署-Hexo-时设置免密码，节省时间" class="headerlink" title="5.部署 Hexo 时设置免密码，节省时间"></a>5.部署 Hexo 时设置免密码，节省时间</h5><p><a href="https://segmentfault.com/a/1190000005125610" target="_blank" rel="noopener">设置 SSH 使用 hexo deploy 时免输用户名密码</a></p><h5 id="6-安装-HexoEditor"><a href="#6-安装-HexoEditor" class="headerlink" title="6.安装 HexoEditor"></a>6.安装 HexoEditor</h5><p>官方地址：<a href="https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md</a><br>淘宝镜像： <a href="https://npm.taobao.org/" target="_blank" rel="noopener">https://npm.taobao.org/</a></p><blockquote><p># If In China China China, you can set mirror to speed up !<br>npm config set registry “<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a>“<br>npm config set electron_mirror “<a href="https://npm.taobao.org/mirrors/electron/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/electron/</a>“</p><p># 克隆项目<br>git clone <a href="https://github.com/zhuzhuyule/HexoEditor.git" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor.git</a></p><p># 使用淘宝定制cnpm， 用npm下载总会出错<br>sudo npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p><p>cd HexoEditor<br>sudo cnpm install<br>sudo cnpm start</p></blockquote><h5 id="7-更换Google字体"><a href="#7-更换Google字体" class="headerlink" title="7.更换Google字体"></a>7.更换Google字体</h5><p>更换Google字体主要是它影响了站点的访问速度，对于这个问题，有几种解决办法：</p><ul><li><a href="https://www.jianshu.com/p/fdbb9aa536bd" target="_blank" rel="noopener">换国内源，比如使用 360 CDN Google 字体库(貌似挂了)、科大 CDN Google 字体库(懒人推荐)</a></li><li><a href="http://stonebythesea.org/2017/03/05/%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0-Google-Fonts%EF%BC%8C%E5%8D%9A%E5%AE%A2%E6%B5%8F%E8%A7%88%E9%80%9F%E5%BA%A6%E6%AD%A3%E5%B8%B8%E4%BA%86/" target="_blank" rel="noopener">使用本地 Google Fonts</a></li></ul><h5 id="8-字数，阅读时长统计"><a href="#8-字数，阅读时长统计" class="headerlink" title="8.字数，阅读时长统计"></a>8.字数，阅读时长统计</h5><p><a href="http://www.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html" target="_blank" rel="noopener">hexo-wordcount实现文章标题栏显示更多的文章信息</a></p><h5 id="9-进阶教程"><a href="#9-进阶教程" class="headerlink" title="9.进阶教程"></a>9.进阶教程</h5><p><a href="http://muyunyun.cn/posts/f55182c5/#more" target="_blank" rel="noopener">hexo 摸爬滚打之进阶教程</a><br><a href="http://blog.ynxiu.com/2016/hexo-next-theme-optimize.html" target="_blank" rel="noopener">Hexo+NexT主题配置备忘</a><br><a href="http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html#" target="_blank" rel="noopener">Hexo博客优化，如何加快你的博客访问速度(精)</a></p>]]></content>
     
@@ -94,11 +170,11 @@
   </entry>
   
   <entry>
-    <title>Hexo+Github+Next-搭建个人博客(一)</title>
+    <title>搭建个人博客(一)-框架选择及小尝试</title>
     <link href="http://yoursite.com/posts/e170b827/"/>
     <id>http://yoursite.com/posts/e170b827/</id>
     <published>2018-01-13T07:27:07.000Z</published>
-    <updated>2018-01-14T06:03:23.814Z</updated>
+    <updated>2018-02-01T08:46:59.240Z</updated>
     
     <content type="html"><![CDATA[<h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><p>Centos7</p><h4 id="参考教程"><a href="#参考教程" class="headerlink" title="参考教程"></a>参考教程</h4><p> <a href="https://mritd.me/2015/12/31/Github-%E6%90%AD%E5%BB%BA-Hexo-%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">Github 搭建 Hexo 静态博客</a></p><p>上面的教程采用的是  Hexo + Github + Yilia 主题，但本人在采用 Yilia 主题出现了一点问题，所以最后采用的是 Next 主题。以下是自己遇到的一些问题及解决办法</p><h4 id="Hexo-框架"><a href="#Hexo-框架" class="headerlink" title="Hexo 框架"></a>Hexo 框架</h4><p><strong>1.在/etc/profle 配置了node.js 的路径，用“sudo npm install …” 提示 “sudo npm  找不到命令“</strong></p><p>原因：当 sudo以管理权限执行命令的时候，Linux将PATH环境变量进行了重置，当然这主要是因为系统安全的考虑,所以会找不到该路径。</p><p>解决办法（路径要更改为自己的）：</p><blockquote><p>sudo ln -s /usr/local/node-v8.9.3/bin/node /usr/bin/node<br>sudo ln -s /usr/local/node-v8.9.3/lib/node_modules /usr/lib/node<br>sudo ln -s /usr/local/node-v8.9.3/bin/npm /usr/bin/npm</p></blockquote><p>参考： <a href="https://www.cnblogs.com/ishell/p/4333763.html" target="_blank" rel="noopener">https://www.cnblogs.com/ishell/p/4333763.html</a></p><p><strong>2.让 hexo server 后台运行</strong><br><a href="http://www.tuijiankan.com/2015/05/08/hexo-forever-run/" target="_blank" rel="noopener">http://www.tuijiankan.com/2015/05/08/hexo-forever-run/</a></p><h4 id="yilia主题"><a href="#yilia主题" class="headerlink" title="yilia主题"></a>yilia主题</h4><p>1 采用 yilia 主题的博客<br><a href="http://litten.me/" target="_blank" rel="noopener">http://litten.me/</a><br><a href="http://zbk1nger.github.io/" target="_blank" rel="noopener">http://zbk1nger.github.io/</a></p><p><strong>2 采用 yilia 主题时图片的路径问题</strong></p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a52fd433701e.png" alt=""></p><p>如图，我在 yilia 的配置文件分别配置了三张图片：支付宝、微信的收款码和个人头像。上图的 /img 文件夹 注意是要放在 根目录下的 source 文件夹下，再通过以下这三条命令生成便可预览。</p><blockquote><p>hexo clean   # 清除缓存<br>hexo g       # 生成静态文件<br>hexo s       # 启动服务器预览</p></blockquote><p><strong>3 yilia 主题发布的文章 在主页显示时 文章的内容 会全部显示，个人觉得那样很长很难看，所以想要部分展示的效果，类似于这样</strong><br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a5344eb4d699.png" alt=""></p><p>解决办法：在文章需要截断的位置加上 more 标签，如下图</p><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-08/5a534580a826c.png" alt=""></p><p>但是添加标签后出现了上图的效果，与“展开全文”重复，而且也不好看，本人没学过前端，故最后切换成 Next 主题。</p><h4 id="Next主题"><a href="#Next主题" class="headerlink" title="Next主题"></a>Next主题</h4><p>Next 主题的配置见本人的下一篇博客 “Hexo+Github+Next 搭建个人博客(二)”。</p><h4 id="其它链接"><a href="#其它链接" class="headerlink" title="其它链接"></a>其它链接</h4><p>搭建个人博客，你需要知道这些<br><a href="https://zhuanlan.zhihu.com/p/25744686" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/25744686</a></p><p>好看的 Hexo 主题<br><a href="https://www.zhihu.com/question/24422335" target="_blank" rel="noopener">https://www.zhihu.com/question/24422335</a></p>]]></content>
     
