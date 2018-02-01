@@ -3,14 +3,21 @@
 
 
     
+    
   <url>
-    <loc>http://yoursite.com/posts/63e75df2/</loc>
-    <lastmod>2018-02-01T08:54:13.386Z</lastmod>
+    <loc>http://yoursite.com/posts/e170b827/</loc>
+    <lastmod>2018-02-01T09:03:41.657Z</lastmod>
     <data>
         <display>
-        <title>Android-Studio版本更新</title>
-        <pubTime>2018-02-01T08:54:00.000Z</pubTime>
+        <title>搭建个人博客(一)-框架选择及小尝试</title>
+        <pubTime>2018-01-13T07:27:07.000Z</pubTime>
         
+        <tag>Hexo</tag>
+         
+        <tag>Next</tag>
+         
+        <tag>博客</tag>
+         
          
            
              
@@ -23,11 +30,29 @@
     
   <url>
     <loc>http://yoursite.com/posts/6b9a598/</loc>
-    <lastmod>2018-02-01T08:53:48.745Z</lastmod>
+    <lastmod>2018-02-01T09:02:47.761Z</lastmod>
     <data>
         <display>
         <title>导入Ghost-Android工程</title>
         <pubTime>2018-02-01T08:53:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/63e75df2/</loc>
+    <lastmod>2018-02-01T09:02:47.758Z</lastmod>
+    <data>
+        <display>
+        <title>Android-Studio版本更新</title>
+        <pubTime>2018-02-01T08:54:00.000Z</pubTime>
         
          
            
@@ -51,30 +76,6 @@
            
              
               <breadCrumb title="Liunx" url="http://yoursite.com/categories/Liunx/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/e170b827/</loc>
-    <lastmod>2018-02-01T08:46:59.240Z</lastmod>
-    <data>
-        <display>
-        <title>搭建个人博客(一)-框架选择及小尝试</title>
-        <pubTime>2018-01-13T07:27:07.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Next</tag>
-         
-        <tag>博客</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -128,7 +129,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://yoursite.com/posts/704f0bbb/</loc>
