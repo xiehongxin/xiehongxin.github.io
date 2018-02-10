@@ -3,6 +3,66 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/posts/63e92f23/</loc>
+    <lastmod>2018-02-10T14:27:31.741Z</lastmod>
+    <data>
+        <display>
+        <title>搭建个人博客(三)-Atom编辑器+七牛云图床</title>
+        <pubTime>2018-02-01T08:45:15.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Next</tag>
+         
+        <tag>博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/c2547b03/</loc>
+    <lastmod>2018-02-01T15:00:36.889Z</lastmod>
+    <data>
+        <display>
+        <title>Pycharm 自定义模板</title>
+        <pubTime>2018-02-01T09:38:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/d7e5ae52/</loc>
+    <lastmod>2018-02-01T15:00:36.887Z</lastmod>
+    <data>
+        <display>
+        <title>Nginx的简单介绍</title>
+        <pubTime>2018-02-01T09:34:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://yoursite.com/posts/e170b827/</loc>
@@ -89,30 +149,6 @@
         <display>
         <title>搭建个人博客(二)- Next主题配置</title>
         <pubTime>2018-01-13T07:27:15.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Next</tag>
-         
-        <tag>博客</tag>
-         
-         
-           
-             
-              <breadCrumb title="随笔" url="http://yoursite.com/categories/%E9%9A%8F%E7%AC%94/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/posts/7879e99d/</loc>
-    <lastmod>2018-02-01T08:45:11.975Z</lastmod>
-    <data>
-        <display>
-        <title>搭建个人博客(三)-Atom编辑器+七牛云图床</title>
-        <pubTime>2018-02-01T08:45:15.000Z</pubTime>
         
         <tag>Hexo</tag>
          

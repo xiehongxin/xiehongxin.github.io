@@ -6,10 +6,57 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-01T09:02:47.758Z</updated>
+  <updated>2018-02-01T15:00:36.889Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pycharm 自定义模板</title>
+    <link href="http://yoursite.com/posts/c2547b03/"/>
+    <id>http://yoursite.com/posts/c2547b03/</id>
+    <published>2018-02-01T09:38:00.000Z</published>
+    <updated>2018-02-01T15:00:36.889Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="Pycharm-设置位置："><a href="#Pycharm-设置位置：" class="headerlink" title="Pycharm 设置位置："></a>Pycharm 设置位置：</h5><p>File-&gt;settings-&gt;Editor-&gt;File and Code Templates-&gt;Python Script</p><h5 id="模板："><a href="#模板：" class="headerlink" title="模板："></a>模板：</h5><p>#!/usr/bin/env python<br># -<em>- coding: utf-8 -</em>-<br># @Time    : ${DATE} ${TIME}<br># @Author  : Aries<br># @Site    : ${SITE}<br># @File    : ${NAME}.py<br># @Software: ${PRODUCT_NAME}</p><h5 id="可用的预定义文件模板变量："><a href="#可用的预定义文件模板变量：" class="headerlink" title="可用的预定义文件模板变量："></a>可用的预定义文件模板变量：</h5><p>$ {PROJECT_NAME} - 当前项目的名称。<br>$ {NAME} - 在文件创建过程中在“新建文件”对话框中指定的新文件的名称。<br>$ {USER} - 当前用户的登录名。<br>$ {DATE} - 当前的系统日期。<br>$ {TIME} - 当前系统时间。<br>$ {YEAR} - 今年。<br>$ {MONTH} - 当月。<br>$ {DAY} - 当月的当天。<br>$ {HOUR} - 目前的小时。<br>$ {MINUTE} - 当前分钟。<br>$ {PRODUCT_NAME} - 将在其中创建文件的IDE的名称。<br>$ {MONTH_NAME_SHORT} - 月份名称的前3个字母。 示例：1月，2月等<br>$ {MONTH_NAME_FULL} - 一个月的全名。 示例：1月，2月等</p><h5 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h5><p><a href="https://www.cnblogs.com/mat-wu/p/7130358.html" target="_blank" rel="noopener">https://www.cnblogs.com/mat-wu/p/7130358.html</a><br><a href="https://www.cnblogs.com/ajmd/p/6239146.html" target="_blank" rel="noopener">https://www.cnblogs.com/ajmd/p/6239146.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h5 id=&quot;Pycharm-设置位置：&quot;&gt;&lt;a href=&quot;#Pycharm-设置位置：&quot; class=&quot;headerlink&quot; title=&quot;Pycharm 设置位置：&quot;&gt;&lt;/a&gt;Pycharm 设置位置：&lt;/h5&gt;&lt;p&gt;File-&amp;gt;settings-&amp;gt;Edit
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx的简单介绍</title>
+    <link href="http://yoursite.com/posts/d7e5ae52/"/>
+    <id>http://yoursite.com/posts/d7e5ae52/</id>
+    <published>2018-02-01T09:34:00.000Z</published>
+    <updated>2018-02-01T15:00:36.887Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><p>Centos7<br>Nginx  1.12.2</p><h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>nginx [engine x]是最初由Igor Sysoev编写的HTTP和反向代理服务器，邮件代理服务器和通用TCP / UDP代理服务器。</p><h4 id="参考教程"><a href="#参考教程" class="headerlink" title="参考教程"></a>参考教程</h4><p><a href="http://www.linuxidc.com/Linux/2017-04/142986.htm" target="_blank" rel="noopener">http://www.linuxidc.com/Linux/2017-04/142986.htm</a><br><a href="http://nginx.org/en/docs/beginners_guide.html" target="_blank" rel="noopener">http://nginx.org/en/docs/beginners_guide.html</a></p><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><blockquote><p>wget <a href="http://dl.Fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm" target="_blank" rel="noopener">http://dl.Fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm</a><br>sudo rpm -ivh epel-release-latest-7.noarch.rpm<br>sudo yum install nginx -y</p></blockquote><h4 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h4><ol><li>输入 systemctl start nginx 启动 nginx</li><li>在浏览器输入 nginx 服务器的IP 地址，一般为 localhost，出现此页面即安装成功</li></ol><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-24/5a686ed675f09.jpg" alt=""></p><h4 id="nginx-常用命令"><a href="#nginx-常用命令" class="headerlink" title="nginx 常用命令"></a>nginx 常用命令</h4><p>(其中 -s 是 signal 的缩写，意思是 nginx 可以通过 quit、stop 这些信号来控制 nginx )</p><blockquote><p>启动：<br>systemctl start nginx<br>sudo nginx<br>&ensp;<br>重启： systemctl restart nginx<br>&ensp;<br>停止：<br>systemctl stop nginx<br>sudo nginx -s quit(优雅地关机)<br>sudo nginx -s stop(快速关机)<br>&ensp;<br>检查状态： systemctl status nginx<br>&ensp;<br>开机自启： systemctl enable nginx<br>&ensp;<br>重新加载配置文件：sudo nginx -s reload</p></blockquote><h4 id="nginx-的权限问题"><a href="#nginx-的权限问题" class="headerlink" title="nginx 的权限问题"></a>nginx 的权限问题</h4><ol><li>本文所安装的 nginx 是由 root 安装的（sudo），所以在执行nginx命令的时候需要系统服务管理指令 systemctl 来执行，否则就很容易报权限不足的错误。</li><li>由于Centos7默认开启 SELinux 服务，这个服务对权限的把控很严格，所以需要先把它关了，这是报权限不足的主要原因。</li></ol><h4 id="nginx-配置文件及目录说明"><a href="#nginx-配置文件及目录说明" class="headerlink" title="nginx 配置文件及目录说明"></a>nginx 配置文件及目录说明</h4><p>注：通过输入 rpm -ql nginx  便可查看安装nginx 所生成的文件</p><ol><li><p>/etc/nginx/nginx.conf： nginx 配置主文件，默认情况下，该配置文件被命名nginx.conf ，并放入目录 /usr/local/nginx/conf， /etc/nginx或 /usr/local/etc/nginx。</p></li><li><p>/etc/nginx/nginx.conf.default :  关于nginx 如何配置的参考文件</p></li><li><p>/etc/nginx/conf.d  和  /etc/nginx/default.d：这两个的共同作用是 放置模块化配置文件，但什么是模块化配置文件呢？就是当你要配置的server 或者 location 比较多的时候，如果全部都放在 nginx.conf 这份文件的话，就会显得很臃肿，这时就可以把这些配置文件放在这两个目录，再通过include命令包含进来，那他们的区别在哪呢？ 在 nginx.conf 这份配置文件中，字段是分为几个级别的，其中 main &gt; events、http；而 http &gt; server &gt; location，由图可得，第一个include （conf.d）与server 是同级别的，第二个 include （default.d）是与location 同级别的，所以在 conf.d 存放server， 在default.d存放 location ，这就是它们的区别。<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-24/5a6883d20204b.png" alt=""></p></li><li><p>/usr/share/nginx/html/index.html ： 上图启动页面的HTML文件，是 index.html 的默认存放位置</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;环境&quot;&gt;&lt;a href=&quot;#环境&quot; class=&quot;headerlink&quot; title=&quot;环境&quot;&gt;&lt;/a&gt;环境&lt;/h4&gt;&lt;p&gt;Centos7&lt;br&gt;Nginx  1.12.2&lt;/p&gt;
+&lt;h4 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot; class=&quot;headerli
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="http://yoursite.com/categories/Python/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Android-Studio版本更新</title>
@@ -60,10 +107,10 @@
   
   <entry>
     <title>搭建个人博客(三)-Atom编辑器+七牛云图床</title>
-    <link href="http://yoursite.com/posts/7879e99d/"/>
-    <id>http://yoursite.com/posts/7879e99d/</id>
+    <link href="http://yoursite.com/posts/63e92f23/"/>
+    <id>http://yoursite.com/posts/63e92f23/</id>
     <published>2018-02-01T08:45:15.000Z</published>
-    <updated>2018-02-01T08:45:11.975Z</updated>
+    <updated>2018-02-10T14:27:31.741Z</updated>
     
     <content type="html"><![CDATA[<p>背景：<br>本篇文章主要讲述的是采用 Hexo+Github+Next 框架搭建个人博客后，图床和编辑器的选择及相关介绍。<br>为什么要选择编辑器呢？当然是为了提高博客的访问速度。图床的选择其实比较简单，因为网上大多数人都推荐七牛云，主要是它有10GB免费存储空间等福利<br>为什么要选择编辑器呢？当然是为了节省时间。如果没有合适的编辑器，则每次写博客都要先上传图片到七牛云，再一个个地复制图片链接到文章中，这显然浪费了很多时间。经过层层筛选，博主最终选择了 Atom 这个编辑器，通过下载几个插件，就可以实现边写文字边上传图片的功能了，岂不乐哉！</p><p>以下主要是关于 Atom 的介绍：</p><h5 id="1-在Atom下配置七牛云作为图床"><a href="#1-在Atom下配置七牛云作为图床" class="headerlink" title="1.在Atom下配置七牛云作为图床"></a>1.在Atom下配置七牛云作为图床</h5><p>参考<br><a href="http://blog.csdn.net/shunxiangl/article/details/75944126" target="_blank" rel="noopener">http://blog.csdn.net/shunxiangl/article/details/75944126</a><br><a href="http://blog.csdn.net/qq_31915279/article/details/61824114" target="_blank" rel="noopener">http://blog.csdn.net/qq_31915279/article/details/61824114</a></p><p>注：<br>1.1 博主因为配置了代理，所以下载插件时不会出现下载不成功的情况。<br>1.2 要想上传图片到七牛云，必须绑定你自己的域名或者用<br>七牛云的测试域名，如果用七牛云的测试域名，则新建的存储空间必须是公开的。<br>1.3 要想实现上传图片，必须先截图，再Ctrl+C，Ctrl+V，而不能单纯复制粘贴你下载好的图片。</p><h5 id="2-Atom-汉化-http-blog-csdn-net-u013366098-article-details-50568779"><a href="#2-Atom-汉化-http-blog-csdn-net-u013366098-article-details-50568779" class="headerlink" title="2.Atom 汉化 http://blog.csdn.net/u013366098/article/details/50568779"></a>2.Atom 汉化 <a href="http://blog.csdn.net/u013366098/article/details/50568779" target="_blank" rel="noopener">http://blog.csdn.net/u013366098/article/details/50568779</a></h5><h5 id="3-Atom-与-Hexo-的结合"><a href="#3-Atom-与-Hexo-的结合" class="headerlink" title="3.Atom 与 Hexo 的结合"></a>3.Atom 与 Hexo 的结合</h5><p>再一次体验到 Atom 的强大之处，因为它竟然支持 Hexo 等框架，只需下载 markdown-writer 插件就可实现与 Hexo 的对接，再一次节省了写博客的时间！<br>参考教程：<a href="http://blog.csdn.net/u010494080/article/details/53562939" target="_blank" rel="noopener">http://blog.csdn.net/u010494080/article/details/53562939</a></p>]]></content>
     
