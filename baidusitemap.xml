@@ -4,8 +4,92 @@
 
     
   <url>
+    <loc>http://yoursite.com/posts/e022544/</loc>
+    <lastmod>2018-02-18T10:20:18.783Z</lastmod>
+    <data>
+        <display>
+        <title>转载-Python-时间模块介绍</title>
+        <pubTime>2018-02-18T10:20:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/3af5ad4e/</loc>
+    <lastmod>2018-02-18T05:59:39.731Z</lastmod>
+    <data>
+        <display>
+        <title>python-str、bytes、unicode区别介绍</title>
+        <pubTime>2018-02-18T05:59:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/be6c44be/</loc>
+    <lastmod>2018-02-18T05:59:36.983Z</lastmod>
+    <data>
+        <display>
+        <title>python-open方法介绍</title>
+        <pubTime>2018-02-18T05:59:00.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/bf4d5c4/</loc>
+    <lastmod>2018-02-18T05:59:34.403Z</lastmod>
+    <data>
+        <display>
+        <title>python-json模块介绍</title>
+        <pubTime>2018-02-18T05:59:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/posts/152d2fee/</loc>
+    <lastmod>2018-02-18T05:59:30.688Z</lastmod>
+    <data>
+        <display>
+        <title>常见的编码集介绍</title>
+        <pubTime>2018-02-18T05:59:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Python" url="http://yoursite.com/categories/Python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/posts/63e92f23/</loc>
-    <lastmod>2018-02-10T14:27:31.741Z</lastmod>
+    <lastmod>2018-02-10T14:33:01.497Z</lastmod>
     <data>
         <display>
         <title>搭建个人博客(三)-Atom编辑器+七牛云图床</title>
