@@ -6,10 +6,34 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-21T01:09:32.043Z</updated>
+  <updated>2018-03-07T02:08:22.777Z</updated>
   <id>http://yoursite.com/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux-用户及用户组介绍</title>
+    <link href="http://yoursite.com/posts/ae5c165a/"/>
+    <id>http://yoursite.com/posts/ae5c165a/</id>
+    <published>2018-03-07T02:08:00.000Z</published>
+    <updated>2018-03-07T02:08:22.777Z</updated>
+    
+    <content type="html"><![CDATA[<p>简介：<br>Linux 是一个多用户、多任务的操作系统。</p><h5 id="用户及用户组概念介绍：-https-www-cnblogs-com-jackyyou-p-5498083-html"><a href="#用户及用户组概念介绍：-https-www-cnblogs-com-jackyyou-p-5498083-html" class="headerlink" title="用户及用户组概念介绍：  https://www.cnblogs.com/jackyyou/p/5498083.html"></a>用户及用户组概念介绍：  <a href="https://www.cnblogs.com/jackyyou/p/5498083.html" target="_blank" rel="noopener">https://www.cnblogs.com/jackyyou/p/5498083.html</a></h5><p>在使用Linux的过程中，我们一般不使用root用户来执行操作，因为root的权限太大，我们容易误删文件及其他操作，所以我们一般会新建多个用户来管理不同的任务。</p><p>本人同时拥有root用户及一个名为hadoop的用户，正常来讲，当你用adduser或者useradd来创建用户时，该用户（hadoop）在命令前加 sudo 是无效的，见下图。原因是你没有将这个用户加入到 sudoers 这份文件中。<br><img src="http://p3d1icyx2.bkt.clouddn.com/9c4303b1acba473ad1af03ca77cff2b4.png" alt=""></p><h5 id="将hadoop加入sudo用户组"><a href="#将hadoop加入sudo用户组" class="headerlink" title="将hadoop加入sudo用户组"></a>将hadoop加入sudo用户组</h5><p>从实际操作上讲，将hadoop加入sudo用户组有两种方式：</p><blockquote><p>第一是使用 vim 打开，但是在最后保存的时候他会提示这是只读文件，可以强制保存，但不知道有没有效<br>vim /etc/sudoers</p><p>第二是使用 visudo 命令打开，这是系统规定的方式<br>sudo visudo</p></blockquote><p>打开文件后，我们可以看到如下内容：<br><img src="http://p3d1icyx2.bkt.clouddn.com/b80b20048904543f06797315e8e82018.png" alt=""></p><p>可以看到，要让hadoop用户能够使用sudo命令，有两种方式：</p><blockquote><p>第一是在 root    ALL=(ALL)       ALL 这条语句下添加<br>hadoop    ALL=(ALL)       ALL</p><p>第二是将用户hadoop加到wheel用户组，因为这个用户组也拥有root权限</p></blockquote><p>小提示：<br>在安装Centos7系统的过程中，会出现如下界面，当你点击创建用户时，会让你输入用户名及密码，下面还有一个是否设置为管理员的选项。当你点击设置为管理员时，就会默认将该用户加到wheel组，所以能够使用sudo命令。<br><img src="http://p3d1icyx2.bkt.clouddn.com/5c3e24a8425fb738d604fa8493fee200.png" alt=""></p><h5 id="输入sudo命令免密码："><a href="#输入sudo命令免密码：" class="headerlink" title="输入sudo命令免密码："></a>输入sudo命令免密码：</h5><p>如果你的用户是在wheel组，则将 sudoers文件中的 #%wheel  ALL=(ALL)       NOPASSWD: ALL 取消注释即可；如果不在，则仿照该格式添加即可。如下</p><blockquote><p>hadoop  ALL=(ALL)       NOPASSWD: ALL</p></blockquote><h5 id="添加用户："><a href="#添加用户：" class="headerlink" title="添加用户："></a>添加用户：</h5><p><a href="https://www.linuxidc.com/Linux/2017-02/140794.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2017-02/140794.htm</a></p><h5 id="sudoers-文件内容翻译："><a href="#sudoers-文件内容翻译：" class="headerlink" title="sudoers 文件内容翻译："></a>sudoers 文件内容翻译：</h5><p><a href="http://blog.csdn.net/a19881029/article/details/18730671" target="_blank" rel="noopener">http://blog.csdn.net/a19881029/article/details/18730671</a></p><h5 id="常见命令及文件说明："><a href="#常见命令及文件说明：" class="headerlink" title="常见命令及文件说明："></a>常见命令及文件说明：</h5><p>groups 查看当前登录用户的组内成员<br>groups gliethttp 查看gliethttp用户所在的组,以及组内成员<br>whoami 查看当前登录用户名</p><p>/etc/group文件包含所有组<br>/etc/shadow和/etc/passwd系统存在的所有用户名</p><h5 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h5><p><a href="https://www.cnblogs.com/jackyyou/p/5498083.html" target="_blank" rel="noopener">https://www.cnblogs.com/jackyyou/p/5498083.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;简介：&lt;br&gt;Linux 是一个多用户、多任务的操作系统。&lt;/p&gt;
+&lt;h5 id=&quot;用户及用户组概念介绍：-https-www-cnblogs-com-jackyyou-p-5498083-html&quot;&gt;&lt;a href=&quot;#用户及用户组概念介绍：-https-www-cnbl
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://yoursite.com/categories/Linux/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Python-时间模块介绍-转载</title>

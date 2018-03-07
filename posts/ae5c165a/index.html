@@ -146,7 +146,7 @@
 
 
 
-  <title>搭建个人博客(二)- Next主题配置 | Hong Xin</title>
+  <title>Linux-用户及用户组介绍 | Hong Xin</title>
   
 
 
@@ -317,7 +317,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/posts/7879e99d/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/posts/ae5c165a/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -334,7 +334,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">搭建个人博客(二)- Next主题配置</h1>
+          <h1 class="post-title" itemprop="name headline">Linux-用户及用户组介绍</h1>
         
 
         <div class="post-meta">
@@ -346,7 +346,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-13T15:27:15+08:00">2018-01-13</time>
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-03-07T10:08:00+08:00">2018-03-07</time>
             
 
             
@@ -367,8 +367,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/随笔/" itemprop="url" rel="index">
-                    <span itemprop="name">随笔</span>
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
                   </a>
                 </span>
 
@@ -385,9 +385,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/posts/7879e99d/#comments" itemprop="discussionUrl">
+                <a href="/posts/ae5c165a/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="posts/7879e99d/" itemprop="commentCount"></span>
+                        data-disqus-identifier="posts/ae5c165a/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -395,7 +395,7 @@
 
           
           
-             <span id="/posts/7879e99d/" class="leancloud_visitors" data-flag-title="搭建个人博客(二)- Next主题配置">
+             <span id="/posts/ae5c165a/" class="leancloud_visitors" data-flag-title="Linux-用户及用户组介绍">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -414,7 +414,7 @@
              <i class="fa fa-calendar-o"></i>
            </span>
            <span class="post-meta-item-text">字数统计:</span>
-           <span class="post-count">701(字)</span>
+           <span class="post-count">601(字)</span>
            
          </span>
 	  
@@ -424,7 +424,7 @@
              <i class="fa fa-calendar-o"></i>
            </span>
            <span class="post-meta-item-text">阅读时长:</span>
-           <span class="post-count">3(分)</span>
+           <span class="post-count">2(分)</span>
            
          </span>
            
@@ -448,36 +448,30 @@
       
 
       
-        <p>本文是上一篇文章 “ Hexo+Github+Next 搭建个人博客(一)”的延续，主要讲述自己在配置 Next 主题时遇到的一些问题，是已经假设你已经搭好环境的情况下，如果对环境搭建还有不懂的地方，请看上一篇文章哦。</p>
-<h4 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h4><p><a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="noopener">http://theme-next.iissnan.com/getting-started.html</a><br><a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/index.html</a></p>
-<h4 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h4><h5 id="1-添加栏目"><a href="#1-添加栏目" class="headerlink" title="1.添加栏目"></a>1.添加栏目</h5><p>如下图， 在添加栏目时需定义路径和图标，图标既可在 menu 这里定义 (符号|| 后面就是图标的名称 )也可以在 menu_icons 定义。该图标是到 <a href="http://fontawesome.io/icons/" target="_blank" rel="noopener">http://fontawesome.io/icons/</a> 这个网站找的。<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a599561675f8.png" alt=""></p>
-<h5 id="2-添加社交链接"><a href="#2-添加社交链接" class="headerlink" title="2.添加社交链接"></a>2.添加社交链接</h5><p>一般情况下在 Next 的配置文件是不会定义中文字体的，中文字体都是定义在 /languages/zh-Hans.yml 文件下，但是我在 /languages/zh-Hans.yml  定义后，还是不会显示“简书”，“知乎”的中文，最后是直接在 配置文件 定义才行，如下图。</p>
-<p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a5998ab9c0d6.png" alt=""></p>
-<p>一般情况下，配置到这里，整个博客的样子也应该出来了，但问题总是有的…</p>
-<h5 id="3-点击-”关于“-显示-”Cannot-GET-about-“"><a href="#3-点击-”关于“-显示-”Cannot-GET-about-“" class="headerlink" title="3.点击 ”关于“ 显示 ”Cannot GET /about/“"></a>3.点击 ”关于“ 显示 ”Cannot GET /about/“</h5><p>这是因为你没有新建页面（page）的缘故，需键入下面命令，键入后在source文件夹下会对应生成 “about” 文件夹 和 index.md 文件，index.md 便是你显示的页面了。之后你便可以肆无忌惮的写文章了。</p>
+        <p>简介：<br>Linux 是一个多用户、多任务的操作系统。</p>
+<h5 id="用户及用户组概念介绍：-https-www-cnblogs-com-jackyyou-p-5498083-html"><a href="#用户及用户组概念介绍：-https-www-cnblogs-com-jackyyou-p-5498083-html" class="headerlink" title="用户及用户组概念介绍：  https://www.cnblogs.com/jackyyou/p/5498083.html"></a>用户及用户组概念介绍：  <a href="https://www.cnblogs.com/jackyyou/p/5498083.html" target="_blank" rel="noopener">https://www.cnblogs.com/jackyyou/p/5498083.html</a></h5><p>在使用Linux的过程中，我们一般不使用root用户来执行操作，因为root的权限太大，我们容易误删文件及其他操作，所以我们一般会新建多个用户来管理不同的任务。</p>
+<p>本人同时拥有root用户及一个名为hadoop的用户，正常来讲，当你用adduser或者useradd来创建用户时，该用户（hadoop）在命令前加 sudo 是无效的，见下图。原因是你没有将这个用户加入到 sudoers 这份文件中。<br><img src="http://p3d1icyx2.bkt.clouddn.com/9c4303b1acba473ad1af03ca77cff2b4.png" alt=""></p>
+<h5 id="将hadoop加入sudo用户组"><a href="#将hadoop加入sudo用户组" class="headerlink" title="将hadoop加入sudo用户组"></a>将hadoop加入sudo用户组</h5><p>从实际操作上讲，将hadoop加入sudo用户组有两种方式：</p>
 <blockquote>
-<p>hexo new page about</p>
+<p>第一是使用 vim 打开，但是在最后保存的时候他会提示这是只读文件，可以强制保存，但不知道有没有效<br>vim /etc/sudoers</p>
+<p>第二是使用 visudo 命令打开，这是系统规定的方式<br>sudo visudo</p>
 </blockquote>
-<h5 id="4-显示分类的效果，如下图"><a href="#4-显示分类的效果，如下图" class="headerlink" title="4.显示分类的效果，如下图"></a>4.显示分类的效果，如下图</h5><p><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a09655dee.png" alt=""></p>
-<p>该效果需要以下三个步骤：</p>
+<p>打开文件后，我们可以看到如下内容：<br><img src="http://p3d1icyx2.bkt.clouddn.com/b80b20048904543f06797315e8e82018.png" alt=""></p>
+<p>可以看到，要让hadoop用户能够使用sudo命令，有两种方式：</p>
 <blockquote>
-<p># 1.新建页面<br>hexo new page categories<br>&ensp;<br> # 2.添加 type 和 comments<br>-–<br>title: 分类<br>date: 2018-01-13 11:12:25<br>type: “categories”<br>comments: false<br>-–<br>&ensp;<br>3.在文章添加分类<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2018-01-13/5a59a047dfc42.png" alt=""></p>
+<p>第一是在 root    ALL=(ALL)       ALL 这条语句下添加<br>hadoop    ALL=(ALL)       ALL</p>
+<p>第二是将用户hadoop加到wheel用户组，因为这个用户组也拥有root权限</p>
 </blockquote>
-<h5 id="5-部署-Hexo-时设置免密码，节省时间"><a href="#5-部署-Hexo-时设置免密码，节省时间" class="headerlink" title="5.部署 Hexo 时设置免密码，节省时间"></a>5.部署 Hexo 时设置免密码，节省时间</h5><p><a href="https://segmentfault.com/a/1190000005125610" target="_blank" rel="noopener">设置 SSH 使用 hexo deploy 时免输用户名密码</a></p>
-<h5 id="6-安装-HexoEditor"><a href="#6-安装-HexoEditor" class="headerlink" title="6.安装 HexoEditor"></a>6.安装 HexoEditor</h5><p>官方地址：<a href="https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor/blob/master/doc/en/Building.md</a><br>淘宝镜像： <a href="https://npm.taobao.org/" target="_blank" rel="noopener">https://npm.taobao.org/</a></p>
+<p>小提示：<br>在安装Centos7系统的过程中，会出现如下界面，当你点击创建用户时，会让你输入用户名及密码，下面还有一个是否设置为管理员的选项。当你点击设置为管理员时，就会默认将该用户加到wheel组，所以能够使用sudo命令。<br><img src="http://p3d1icyx2.bkt.clouddn.com/5c3e24a8425fb738d604fa8493fee200.png" alt=""></p>
+<h5 id="输入sudo命令免密码："><a href="#输入sudo命令免密码：" class="headerlink" title="输入sudo命令免密码："></a>输入sudo命令免密码：</h5><p>如果你的用户是在wheel组，则将 sudoers文件中的 #%wheel  ALL=(ALL)       NOPASSWD: ALL 取消注释即可；如果不在，则仿照该格式添加即可。如下</p>
 <blockquote>
-<p># If In China China China, you can set mirror to speed up !<br>npm config set registry “<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a>“<br>npm config set electron_mirror “<a href="https://npm.taobao.org/mirrors/electron/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/electron/</a>“</p>
-<p># 克隆项目<br>git clone <a href="https://github.com/zhuzhuyule/HexoEditor.git" target="_blank" rel="noopener">https://github.com/zhuzhuyule/HexoEditor.git</a></p>
-<p># 使用淘宝定制cnpm， 用npm下载总会出错<br>sudo npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p>
-<p>cd HexoEditor<br>sudo cnpm install<br>sudo cnpm start</p>
+<p>hadoop  ALL=(ALL)       NOPASSWD: ALL</p>
 </blockquote>
-<h5 id="7-更换Google字体"><a href="#7-更换Google字体" class="headerlink" title="7.更换Google字体"></a>7.更换Google字体</h5><p>更换Google字体主要是它影响了站点的访问速度，对于这个问题，有几种解决办法：</p>
-<ul>
-<li><a href="https://www.jianshu.com/p/fdbb9aa536bd" target="_blank" rel="noopener">换国内源，比如使用 360 CDN Google 字体库(貌似挂了)、科大 CDN Google 字体库(懒人推荐)</a></li>
-<li><a href="http://stonebythesea.org/2017/03/05/%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0-Google-Fonts%EF%BC%8C%E5%8D%9A%E5%AE%A2%E6%B5%8F%E8%A7%88%E9%80%9F%E5%BA%A6%E6%AD%A3%E5%B8%B8%E4%BA%86/" target="_blank" rel="noopener">使用本地 Google Fonts</a></li>
-</ul>
-<h5 id="8-字数，阅读时长统计"><a href="#8-字数，阅读时长统计" class="headerlink" title="8.字数，阅读时长统计"></a>8.字数，阅读时长统计</h5><p><a href="http://www.joryhe.com/2016-06-06-hexo_wordcount_setting_your_post.html" target="_blank" rel="noopener">hexo-wordcount实现文章标题栏显示更多的文章信息</a></p>
-<h5 id="9-进阶教程"><a href="#9-进阶教程" class="headerlink" title="9.进阶教程"></a>9.进阶教程</h5><p><a href="http://muyunyun.cn/posts/f55182c5/#more" target="_blank" rel="noopener">hexo 摸爬滚打之进阶教程</a><br><a href="http://blog.ynxiu.com/2016/hexo-next-theme-optimize.html" target="_blank" rel="noopener">Hexo+NexT主题配置备忘</a><br><a href="http://www.joryhe.com/2016-06-05-hexo_site_seo_speed_more_optimization.html#" target="_blank" rel="noopener">Hexo博客优化，如何加快你的博客访问速度(精)</a></p>
+<h5 id="添加用户："><a href="#添加用户：" class="headerlink" title="添加用户："></a>添加用户：</h5><p><a href="https://www.linuxidc.com/Linux/2017-02/140794.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2017-02/140794.htm</a></p>
+<h5 id="sudoers-文件内容翻译："><a href="#sudoers-文件内容翻译：" class="headerlink" title="sudoers 文件内容翻译："></a>sudoers 文件内容翻译：</h5><p><a href="http://blog.csdn.net/a19881029/article/details/18730671" target="_blank" rel="noopener">http://blog.csdn.net/a19881029/article/details/18730671</a></p>
+<h5 id="常见命令及文件说明："><a href="#常见命令及文件说明：" class="headerlink" title="常见命令及文件说明："></a>常见命令及文件说明：</h5><p>groups 查看当前登录用户的组内成员<br>groups gliethttp 查看gliethttp用户所在的组,以及组内成员<br>whoami 查看当前登录用户名</p>
+<p>/etc/group文件包含所有组<br>/etc/shadow和/etc/passwd系统存在的所有用户名</p>
+<h5 id="参考链接："><a href="#参考链接：" class="headerlink" title="参考链接："></a>参考链接：</h5><p><a href="https://www.cnblogs.com/jackyyou/p/5498083.html" target="_blank" rel="noopener">https://www.cnblogs.com/jackyyou/p/5498083.html</a></p>
 
       
     </div>
@@ -517,16 +511,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
-          
-            <a href="/tags/Next/" rel="tag"># Next</a>
-          
-            <a href="/tags/博客/" rel="tag"># 博客</a>
-          
-        </div>
-      
 
       
       
@@ -536,8 +520,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/e170b827/" rel="next" title="搭建个人博客(一)-框架选择及小尝试">
-                <i class="fa fa-chevron-left"></i> 搭建个人博客(一)-框架选择及小尝试
+              <a href="/posts/e022544/" rel="next" title="Python-时间模块介绍-转载">
+                <i class="fa fa-chevron-left"></i> Python-时间模块介绍-转载
               </a>
             
           </div>
@@ -545,10 +529,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/posts/704f0bbb/" rel="prev" title="Ubuntu16.04安装virtualbox">
-                Ubuntu16.04安装virtualbox <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -712,7 +692,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#文档"><span class="nav-number">1.</span> <span class="nav-text">文档</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#遇到的问题"><span class="nav-number">2.</span> <span class="nav-text">遇到的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-添加栏目"><span class="nav-number">2.1.</span> <span class="nav-text">1.添加栏目</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-添加社交链接"><span class="nav-number">2.2.</span> <span class="nav-text">2.添加社交链接</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-点击-”关于“-显示-”Cannot-GET-about-“"><span class="nav-number">2.3.</span> <span class="nav-text">3.点击 ”关于“ 显示 ”Cannot GET /about/“</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#4-显示分类的效果，如下图"><span class="nav-number">2.4.</span> <span class="nav-text">4.显示分类的效果，如下图</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#5-部署-Hexo-时设置免密码，节省时间"><span class="nav-number">2.5.</span> <span class="nav-text">5.部署 Hexo 时设置免密码，节省时间</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#6-安装-HexoEditor"><span class="nav-number">2.6.</span> <span class="nav-text">6.安装 HexoEditor</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#7-更换Google字体"><span class="nav-number">2.7.</span> <span class="nav-text">7.更换Google字体</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#8-字数，阅读时长统计"><span class="nav-number">2.8.</span> <span class="nav-text">8.字数，阅读时长统计</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#9-进阶教程"><span class="nav-number">2.9.</span> <span class="nav-text">9.进阶教程</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#用户及用户组概念介绍：-https-www-cnblogs-com-jackyyou-p-5498083-html"><span class="nav-number">1.</span> <span class="nav-text">用户及用户组概念介绍：  https://www.cnblogs.com/jackyyou/p/5498083.html</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#将hadoop加入sudo用户组"><span class="nav-number">2.</span> <span class="nav-text">将hadoop加入sudo用户组</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#输入sudo命令免密码："><span class="nav-number">3.</span> <span class="nav-text">输入sudo命令免密码：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#添加用户："><span class="nav-number">4.</span> <span class="nav-text">添加用户：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#sudoers-文件内容翻译："><span class="nav-number">5.</span> <span class="nav-text">sudoers 文件内容翻译：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#常见命令及文件说明："><span class="nav-number">6.</span> <span class="nav-text">常见命令及文件说明：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#参考链接："><span class="nav-number">7.</span> <span class="nav-text">参考链接：</span></a></li></ol></div>
             
 
           </div>
@@ -882,9 +862,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'http://yoursite.com/posts/7879e99d/';
-          this.page.identifier = 'posts/7879e99d/';
-          this.page.title = '搭建个人博客(二)- Next主题配置';
+          this.page.url = 'http://yoursite.com/posts/ae5c165a/';
+          this.page.identifier = 'posts/ae5c165a/';
+          this.page.title = 'Linux-用户及用户组介绍';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://hongxin.disqus.com/embed.js';
