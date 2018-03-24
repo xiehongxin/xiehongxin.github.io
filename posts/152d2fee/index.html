@@ -146,7 +146,7 @@
 
 
 
-  <title>常见的编码集介绍 | Hong Xin</title>
+  <title>Python-2-常见的编码集介绍 | Hong Xin</title>
   
 
 
@@ -334,7 +334,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">常见的编码集介绍</h1>
+          <h1 class="post-title" itemprop="name headline">Python-2-常见的编码集介绍</h1>
         
 
         <div class="post-meta">
@@ -395,7 +395,7 @@
 
           
           
-             <span id="/posts/152d2fee/" class="leancloud_visitors" data-flag-title="常见的编码集介绍">
+             <span id="/posts/152d2fee/" class="leancloud_visitors" data-flag-title="Python-2-常见的编码集介绍">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -414,7 +414,7 @@
              <i class="fa fa-calendar-o"></i>
            </span>
            <span class="post-meta-item-text">字数统计:</span>
-           <span class="post-count">940(字)</span>
+           <span class="post-count">961(字)</span>
            
          </span>
 	  
@@ -448,7 +448,8 @@
       
 
       
-        <p>在进行文件读写的过程中，我们不可避免地会遇到编码的问题，以下便是各种编码集的介绍，希望能为读者提供一定帮助。</p>
+        <p>此篇文章是Python介绍的第二部分：常见的编码集介绍。</p>
+<p>在进行文件读写的过程中，我们不可避免地会遇到编码的问题，以下便是各种编码集的介绍，希望能为读者提供一定帮助。</p>
 <h4 id="位、字节、字符的区别："><a href="#位、字节、字符的区别：" class="headerlink" title="位、字节、字符的区别："></a>位、字节、字符的区别：</h4><p>位：bytes，是存储的最小单位；<br>字节：一个字节等于8位<br>字符：根据编码的不同，一个字符有可能等于1个、2个或者4个及以上字节</p>
 <h4 id="常见的各种编码比较："><a href="#常见的各种编码比较：" class="headerlink" title="常见的各种编码比较："></a>常见的各种编码比较：</h4><p><strong>ASCII：</strong>（American Standard Code for Information Interchange，美国信息交换标准代码），<strong>1967年正式发布</strong>。美国人首先对其英文字符进行了编码，也就是最早的ASCII码，用一个字节的低7位来表示英文的128个字符，最高位统一为0。<br><strong>ISO-8859-1：</strong> 单字节编码，向下兼容ASCII，其编码范围是0x00-0xFF，0x00-0x7F之间完全和ASCII一致，0x80-0x9F之间是控制字符，0xA0-0xFF之间是文字符号。ISO-8859-1收录的字符除ASCII收录的字符外，还包括西欧语言、希腊语、泰语、阿拉伯语、希伯来语对应的文字符号。<br><strong>GB2312-80/CP936：</strong> (GuoBiao)中华人民共和国国家标准简体中文字符集，<strong>1981年发布</strong>。共收录6763个汉字，覆盖99.75%的使用频率，但对于一些罕见字还不能处理。该编码对所收汉字进行分区处理，共计94个区，每个区包含94个汉字/字符。<br><strong>GBK：</strong> (GuoBiaoKuo)汉字内码扩展规范，<strong>1995年发布</strong>。GBK 只为“技术规范指导性文件”，不属于国家标准。GBK向下完全兼容GB2312-80编码，补充了GB2312-80编码缺少的一些罕见字。<br><strong>GB18030：</strong> 国家标准GB 18030-2005《信息技术　中文编码字符集》，<strong>2000年发布</strong>。向后兼容GBK，共收录汉字70244个。采用变长多字节编码，每个字可以由1个、2个或4个字节组成。<br><strong>Unicode：</strong> <strong>1991年公布1.0版本</strong>。在Unicode出现之前，各国之间的编码都不尽相同，西方有ASCII、ISO-8859-1等编码，中国有GB2312等编码，各国之间通信容易出现乱码的问题，所以Unicode就应运而生了，将世界上所有的字符都纳入其中，每一个字符都给予独一无二的编码。<br><strong>UTF-8：</strong> （8-bit Unicode Transformation Format），<strong>1993年正式公布</strong>。是一种针对Unicode的可变长度字元编码。由于Unicode规定一个字符必须为两个字节，对于英文字符来说会增加一倍的存储空间，所以就出现了可变长的UTF-8。</p>
 <p><strong>Unicode到UTF8的转换规则：</strong><br>Unicode         UTF-8<br>0000 - 007F    0xxxxxxx<br>0080 - 07FF    110xxxxx 10xxxxxx<br>0800 - FFFF    1110xxxx 10xxxxxx 10xxxxxx<br>举例：已知“严”的Unicode是4E25（0100-1110-0010-0101），根据上表，可以发现4E25处在第三行的范围内（0800-FFFF），因此“严”的UTF-8编码需要三个字节，即格式是“1110xxxx 10xxxxxx 10xxxxxx”。然后，从“严”的最后一个二进制位开始，依次从后向前填入格式中的x，多出的位补0。这样就得到了“严”的UTF-8编码是“11100100-10111000- 10100101”，转换成十六进制就是E4B8A5。</p>
@@ -502,8 +503,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/c2547b03/" rel="next" title="Pycharm 自定义模板">
-                <i class="fa fa-chevron-left"></i> Pycharm 自定义模板
+              <a href="/posts/c2547b03/" rel="next" title="Python-11-Pycharm自定义模板">
+                <i class="fa fa-chevron-left"></i> Python-11-Pycharm自定义模板
               </a>
             
           </div>
@@ -512,8 +513,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/posts/3af5ad4e/" rel="prev" title="python-str、bytes、unicode区别介绍">
-                python-str、bytes、unicode区别介绍 <i class="fa fa-chevron-right"></i>
+              <a href="/posts/bf4d5c4/" rel="prev" title="Python-7-序列化-json模块介绍">
+                Python-7-序列化-json模块介绍 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -601,7 +602,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">27</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -850,7 +851,7 @@
         var disqus_config = function () {
           this.page.url = 'http://yoursite.com/posts/152d2fee/';
           this.page.identifier = 'posts/152d2fee/';
-          this.page.title = '常见的编码集介绍';
+          this.page.title = 'Python-2-常见的编码集介绍';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://hongxin.disqus.com/embed.js';
