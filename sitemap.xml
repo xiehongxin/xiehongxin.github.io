@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/posts/704f0bbb/</loc>
+    
+    <lastmod>2018-03-24T01:24:59.312Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/d2553b91/</loc>
+    
+    <lastmod>2018-03-24T01:24:46.468Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/427be274/</loc>
+    
+    <lastmod>2018-03-24T01:21:57.971Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/7ba23f82/</loc>
+    
+    <lastmod>2018-03-24T01:21:57.970Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/posts/7d10c5a7/</loc>
     
-    <lastmod>2018-03-23T11:39:03.662Z</lastmod>
+    <lastmod>2018-03-24T01:21:57.969Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/a042bf99/</loc>
+    
+    <lastmod>2018-03-24T01:21:57.966Z</lastmod>
     
   </url>
   
@@ -40,13 +75,6 @@
     <loc>http://yoursite.com/posts/3c93276/</loc>
     
     <lastmod>2018-03-13T05:07:48.938Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/a042bf99/</loc>
-    
-    <lastmod>2018-03-13T04:55:39.307Z</lastmod>
     
   </url>
   
@@ -96,20 +124,6 @@
     <loc>http://yoursite.com/posts/bf4d5c4/</loc>
     
     <lastmod>2018-03-13T04:50:50.347Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/7ba23f82/</loc>
-    
-    <lastmod>2018-03-13T04:50:34.897Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/427be274/</loc>
-    
-    <lastmod>2018-03-13T04:50:12.899Z</lastmod>
     
   </url>
   
@@ -177,23 +191,9 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/posts/d2553b91/</loc>
-    
-    <lastmod>2018-02-01T08:48:08.974Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/posts/7879e99d/</loc>
     
     <lastmod>2018-02-01T08:45:59.044Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/posts/704f0bbb/</loc>
-    
-    <lastmod>2018-01-13T07:33:13.583Z</lastmod>
     
   </url>
   

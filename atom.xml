@@ -109,7 +109,7 @@
     <link href="http://yoursite.com/posts/a042bf99/"/>
     <id>http://yoursite.com/posts/a042bf99/</id>
     <published>2018-03-13T04:55:00.000Z</published>
-    <updated>2018-03-13T04:55:39.307Z</updated>
+    <updated>2018-03-24T01:21:57.966Z</updated>
     
     <content type="html"><![CDATA[<p>mariadb 与 mysql 的区别：<br><a href="http://www.jb51.net/article/72416.htm" target="_blank" rel="noopener">http://www.jb51.net/article/72416.htm</a></p><p>解决mariadb-server，mariadb-client安装失败<br><img src="http://p3d1icyx2.bkt.clouddn.com/5b2c371fb8b37d28b8dceae1a22720b0.png" alt=""></p><blockquote><p>1.查看已安装的 mariadb相关包<br><img src="http://p3d1icyx2.bkt.clouddn.com/97a7bbb278e0f97d35e737c929f36079.png" alt=""></p><ol><li><p>将这些依赖包卸载<br>sudo yum remove mariadb101u-config<em><br>sudo yum remove mariadb101u-libs</em></p></li><li><p>新建mariadb的源文件<br>sudo vim MariaDB.repo  （建议取这个名字）<br>输入以下内容（该源为清华源，国外源实在太慢）：<br>[mariadb]<br>name = MariaDB<br>baseurl = <a href="https://mirrors.ustc.edu.cn/mariadb/yum/10.1/centos7-amd64" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/mariadb/yum/10.1/centos7-amd64</a><br>gpgkey=<a href="https://mirrors.ustc.edu.cn/mariadb/yum/RPM-GPG-KEY-MariaDB" target="_blank" rel="noopener">https://mirrors.ustc.edu.cn/mariadb/yum/RPM-GPG-KEY-MariaDB</a><br>gpgcheck=1</p></li></ol><p>4.安装<br>sudo yum install MariaDB-server MariaDB-client</p></blockquote><p>注意：<br>If you don’t have the MariaDB GPG Signing key installed, YUM will prompt you to install it after downloading the packages (but before installing them).</p><p>mariadb-server 和 mariadb-client 安装包<br><a href="http://yum.mariadb.org/10.1/centos7-amd64" target="_blank" rel="noopener">http://yum.mariadb.org/10.1/centos7-amd64</a></p><p><a href="http://yum.mariadb.org/10.1/centos7-amd64" target="_blank" rel="noopener">http://yum.mariadb.org/10.1/centos7-amd64</a> rpms目录 和 srpms目录的区别<br>RPMS中的软件包是直接可以用rpm来安装的,而SRPMS中的软件包是需要先编译在用rpm安装的</p><p>启动及配置mariadb<br><a href="https://www.linuxidc.com/Linux/2016-03/128880.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2016-03/128880.htm</a></p><p>参考教程：<br><a href="https://www.jianshu.com/p/61e9cbd1b675" target="_blank" rel="noopener">https://www.jianshu.com/p/61e9cbd1b675</a><br><a href="https://mariadb.com/kb/en/library/yum/" target="_blank" rel="noopener">https://mariadb.com/kb/en/library/yum/</a><br><a href="https://www.centos.bz/2017/12/%E5%AE%89%E8%A3%85mariadb%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%BD%BF%E7%94%A8%E5%9B%BD%E5%86%85%E6%BA%90/" target="_blank" rel="noopener">https://www.centos.bz/2017/12/%E5%AE%89%E8%A3%85mariadb%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95-%E4%BD%BF%E7%94%A8%E5%9B%BD%E5%86%85%E6%BA%90/</a></p>]]></content>
     
@@ -176,7 +176,7 @@
     <link href="http://yoursite.com/posts/7d10c5a7/"/>
     <id>http://yoursite.com/posts/7d10c5a7/</id>
     <published>2018-03-12T13:59:00.000Z</published>
-    <updated>2018-03-23T11:39:03.662Z</updated>
+    <updated>2018-03-24T01:21:57.969Z</updated>
     
     <content type="html"><![CDATA[<p>Favotites： 可以查看断点</p><p>ycharm搜索导航之文件名、符号名搜索<br><a href="http://blog.csdn.net/u013088062/article/details/50323393" target="_blank" rel="noopener">http://blog.csdn.net/u013088062/article/details/50323393</a></p><p>PyCharm中设置断点却不执行的原因<br><a href="https://jingyan.baidu.com/article/e75057f2eb1ec7ebc91a8985.html" target="_blank" rel="noopener">https://jingyan.baidu.com/article/e75057f2eb1ec7ebc91a8985.html</a></p><p>Pycharm如何实现变量的批量重命名<br>Ctrl + R   替换<br>Ctrl + Shift + F   全局查找<br>Ctrl + Shift + R   全局替换</p><p>pycharm：格式化python代码<br>ctrl+alt+L可以格式化</p><p>pycharm Tab键设置成4个空格<br><a href="https://www.cnblogs.com/Will-guo/p/6321843.html" target="_blank" rel="noopener">https://www.cnblogs.com/Will-guo/p/6321843.html</a></p>]]></content>
     
@@ -200,7 +200,7 @@
     <link href="http://yoursite.com/posts/7ba23f82/"/>
     <id>http://yoursite.com/posts/7ba23f82/</id>
     <published>2018-03-12T13:54:00.000Z</published>
-    <updated>2018-03-13T04:50:34.897Z</updated>
+    <updated>2018-03-24T01:21:57.970Z</updated>
     
     <content type="html"><![CDATA[<p>在我的涉猎中，Python模块一般会涉及到这几个问题：</p><p>1 __init<strong>文件的作用<br>\</strong>init__文件 可以区别文件夹是 Python模块还是 Python目录，Python模块可以被调用，目录不行。</p><p>不明白json模块的 loads等方法是写在 __init__文件中？</p><p>2 import xxx 和 from xxx import x 和 import xxx as xx 的区别<br>举个例子, 有个 hello.py 文件，假设 hello.py 可以当作模块使用，它的代码如下<br><img src="http://p3d1icyx2.bkt.clouddn.com/e3d73cf3e1ed614a385883f1153e0ada.png" alt=""></p><p>有三种调用它的方法</p><blockquote><p>1 import PythonTest.module_test.hello<br>这种方法导入了 hello 模块的全部方法，如果 hello 模块包含方法较多，占用的内存会比较大</p><p>2 import PythonTest.module_test.hello as hello<br>这种方法和 import PythonTest.module_test.hello 本质一样，都是导入所有方法，区别在于import PythonTest.module_test.hello as hello 给 PythonTest.module_test.hello 赋予了一个别名 hello，调用起来更方便，代码也更简洁</p><p>3 from PythonTest.module_test.hello import print_age<br>从 PythonTest.module_test.hello 模块导入 print_age 方法，只导入单个方法，占用内存小很多</p></blockquote><p>3  if.__name<strong>  == ‘\</strong>main<strong>‘ 语句的作用<br>该语句主要是用于代码测试。<br>如上图的例子，当在命令行执行 python3 hello.py 时，会依次执行print_name、print_age、print_sex这三个方法，因为这时候 \</strong>name<strong> 等于 ‘\</strong>main<strong>‘，if 语句执行。反之，当你是调用而不是执行该模块时，\</strong>name<strong> 不等于 ‘\</strong>main__’，三个方法不会被执行，所以起到测试代码的作用。</p><p>4 global 关键字的用法<br><img src="http://p3d1icyx2.bkt.clouddn.com/b5b89942fd8abf52b012b97c8b75eda8.png" alt=""></p>]]></content>
     
@@ -225,7 +225,7 @@
     <link href="http://yoursite.com/posts/427be274/"/>
     <id>http://yoursite.com/posts/427be274/</id>
     <published>2018-03-12T13:54:00.000Z</published>
-    <updated>2018-03-13T04:50:12.899Z</updated>
+    <updated>2018-03-24T01:21:57.971Z</updated>
     
     <content type="html"><![CDATA[<p>此篇文章是Python介绍的第五部分：异常介绍</p><p>Python的异常处理有两种方式，第一种是用 try…except捕获异常，并用日志记录或者用print()打印出来；第二种是用raise关键字显示抛出异常。两者的区别是是程序的后续代码能否在出现异常后仍然能够执行。</p><p><img src="http://p3d1icyx2.bkt.clouddn.com/fb76411c806120b06b1670c0e7eb98e0.png" alt=""></p><blockquote><p>error<br> end<br> ### 后续代码print(‘end’)能够执行</p></blockquote><p><img src="http://p3d1icyx2.bkt.clouddn.com/e322519212030bce0b44bb50889a4795.png" alt=""></p><p><img src="http://p3d1icyx2.bkt.clouddn.com/169ff9f03953f95a91e4582dc53ca748.png" alt=""></p><blockquote><p>### 后续代码print(‘end’)不能执行</p></blockquote><p>如果我们在程序中没有try或者raise异常，在程序出现错误时，程序也会抛出异常，其实是隐式地调用了raise。</p>]]></content>
     

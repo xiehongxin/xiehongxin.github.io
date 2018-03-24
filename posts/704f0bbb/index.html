@@ -367,8 +367,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Liunx/" itemprop="url" rel="index">
-                    <span itemprop="name">Liunx</span>
+                  <a href="/categories/Linux/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux</span>
                   </a>
                 </span>
 
@@ -454,7 +454,7 @@
 <p>4.报错：vboxdrv 构建失败<br>vboxdrv介绍：为了在主操作系统旁边的虚拟机中运行其他操作系统，VirtualBox需要非常紧密地集成到系统中。要做到这一点，它会安装一个名为“驱动程序”的模块vboxdrv，该模块在系统内核中进行大量工作，这是控制处理器和物理硬件的操作系统的一部分。没有这个内核模块，你仍然可以使用VirtualBox管理器来配置虚拟机，但是它们不会启动。它还安装了调用的网络驱动程序 vboxnetflt， vboxnetadp哪些虚拟机可以更好地利用计算机的网络功能，而且超出基本“NAT”模式的虚拟机网络需要。</p>
 <p>在执行 sudo dpkg -i virtualbox-5.1_5.1.4-110228-Ubuntu-xenial_amd64.deb<br>这条命令时，安装程序将尝试构建适合当前运行的内核的内核模块。如果构建过程不成功，您将看到一个警告，该包将被取消配置</p>
 <p>解决步骤：（不要盲目执行本教程代码，建议阅读全文后再考虑如何执行）<br>1.查看有没有安装正确的头文件<br>查看内核版本：<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2017-08-20/5999696c4fd2b.png" alt=""></p>
-<p>对于Debian和基于Ubuntu的发行版，您必须安装 linux-headers，通常取的linux-headers-generic ，linux-headers-amd64 ，linux-headers-i686 或linux-headers-i686-pae 这些头文件的正确版，版本名最好与内核版本名称相匹配; </p>
+<p>对于Debian和基于Ubuntu的发行版，您必须安装 linux-headers，通常取的linux-headers-generic ，linux-headers-amd64 ，linux-headers-i686 或linux-headers-i686-pae 这些头文件的正确版，版本名最好与内核版本名称相匹配;</p>
 <p>头文件一般放在/usr/src 目录下<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2017-08-20/59996aeedfd4a.png" alt=""><br>如图，该头文件已正确安装（我是自动安装的），如果相应的头文件没安装，可参考下面的教程：<br><a href="https://linux.cn/article-4625-1.html#3_1245" target="_blank" rel="noopener">https://linux.cn/article-4625-1.html#3_1245</a></p>
 <p>2.查看/var/log/vbox-install.log为什么编译失败<br><img src="http://hdoc.scau.edu.cn/Public/Uploads/2017-08-21/599af3cbdf74a.png" alt=""></p>
 <p>通过Google和百度，网上大部分资料都指向“内核没编译”，但是因为对内核不熟，所以没敢尝试，也建议不要随便编译内核，以下是我查找的资料<br>报错解决办法：<br><a href="http://hanjiangduqiao.blog.163.com/blog/static/613105442012320558430/" target="_blank" rel="noopener">http://hanjiangduqiao.blog.163.com/blog/static/613105442012320558430/</a><br><a href="http://blog.csdn.net/chenbang110/article/details/7795011" target="_blank" rel="noopener">http://blog.csdn.net/chenbang110/article/details/7795011</a> （就是这个教程说内核没编译）<br><a href="http://www.linuxdiyf.com/viewarticle.php?id=314763" target="_blank" rel="noopener">http://www.linuxdiyf.com/viewarticle.php?id=314763</a> (这个教程说要进入 /usr/src/kernels/linux-3.6.2 目录，但是我发现我电脑并没有kernels这个目录，所以没尝试)</p>
